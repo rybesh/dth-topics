@@ -3,6 +3,7 @@ import csv
 import os.path
 import pyLDAvis
 import numpy as np
+from joblib import cpu_count
 
 
 def log(message):
@@ -108,7 +109,7 @@ log('topic-term shape: %s' % str(np.array(model['topic_term_dists']).shape))
 log('doc-topic shape: %s' % str(np.array(model['doc_topic_dists']).shape))
 log('doc lengths shape: %s' % str(np.array(model['doc_lengths']).shape))
 
-log('using %s cores' % model['n_jobs'])
+log('using %s cores' % model.get('n_jobs', cpu_count()))
 log('measuring topic distance using %s' % model['mds'])
 
 log('preparing visualization...')
