@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH -p snp
+#SBATCH -p general
 #SBATCH -N 1
 #SBATCH --mem 128G
 #SBATCH -n 16
