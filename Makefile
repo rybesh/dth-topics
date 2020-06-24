@@ -44,7 +44,7 @@ ocr: dates.txt
 
 # install latest development version of MALLET
 $(MALLET): check_tools
-	git clone git@github.com:mimno/Mallet.git mallet
+	git clone https://github.com/mimno/Mallet.git mallet
 	cd mallet && ant test
 	sed -i -e 's/MEMORY=1g/MEMORY=$(MEMORY)/g' $@
 
