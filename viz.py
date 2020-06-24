@@ -5,12 +5,17 @@ import pyLDAvis
 import numpy as np
 
 
+def log(message):
+    sys.stderr.write(message + '\n')
+
+
 def normalize(weights):
     s = sum(weights)
     return [w/s for w in weights]
 
 
 def load_topic_term_dists(filename):
+    log('loading topic-term distributions...')
     dists = []
     with open(filename) as f:
         reader = csv.reader(f, delimiter="\t")
@@ -29,6 +34,7 @@ def load_topic_term_dists(filename):
 
 
 def load_doc_topic_dists(filename):
+    log('loading document-topic distributions...')
     dists = []
     with open(filename) as f:
         reader = csv.reader(f, delimiter="\t")
@@ -38,6 +44,7 @@ def load_doc_topic_dists(filename):
 
 
 def load_doc_lengths(filename):
+    log('loading document lengths...')
     lengths = []
     with open(filename) as f:
         length = None
@@ -56,6 +63,7 @@ def load_doc_lengths(filename):
 
 
 def load_vocab(filename):
+    log('loading vocabulary...')
     vocab = []
     with open(filename) as f:
         for line in f:
@@ -64,6 +72,7 @@ def load_vocab(filename):
 
 
 def load_term_frequency(filename):
+    log('loading term frequencies...')
     counts = []
     with open(filename) as f:
         reader = csv.reader(f, delimiter="\t")
@@ -72,30 +81,40 @@ def load_term_frequency(filename):
     return counts
 
 
-def load_mallet_model(path):
+def load_mallet_model(corpus_info_path, topics_info_path):
     return {
-        'topic_term_dists':
-        load_topic_term_dists(os.path.join(path, 'topic-word-weights.tsv')),
-        'doc_topic_dists':
-        load_doc_topic_dists(os.path.join(path, 'doc-topics.tsv')),
-        'doc_lengths':
-        load_doc_lengths(os.path.join(path, 'instances.txt')),
-        'vocab':
-        load_vocab(os.path.join(path, 'features.txt')),
-        'term_frequency':
-        load_term_frequency(os.path.join(path, 'feature-counts.tsv')),
-        'sort_topics':
-        False
+        'doc_lengths': load_doc_lengths(
+            os.path.join(corpus_info_path, 'instances.txt')),
+        'vocab': load_vocab(
+            os.path.join(corpus_info_path, 'features.txt')),
+        'term_frequency': load_term_frequency(
+            os.path.join(corpus_info_path, 'feature-counts.tsv')),
+        'topic_term_dists': load_topic_term_dists(
+            os.path.join(topics_info_path, 'topic-word-weights.tsv')),
+        'doc_topic_dists': load_doc_topic_dists(
+            os.path.join(topics_info_path, 'doc-topics.tsv')),
+
+        'sort_topics': False,
+        'mds': 'tsne',  # algorithm for measuring distance between topics
     }
 
 
-path = sys.argv[1]
-model = load_mallet_model(path)
+corpus_info_path = sys.argv[1]
+topics_info_path = sys.argv[2]
 
-print('Topic-term shape: %s' % str(np.array(model['topic_term_dists']).shape))
-print('Doc-topic shape: %s' % str(np.array(model['doc_topic_dists']).shape))
-print('Doc lengths shape: %s' % str(np.array(model['doc_lengths']).shape))
+model = load_mallet_model(corpus_info_path, topics_info_path)
 
-pyLDAvis.save_html(
-    pyLDAvis.prepare(**model),
-    os.path.join(path, 'viz.html'))
+log('topic-term shape: %s' % str(np.array(model['topic_term_dists']).shape))
+log('doc-topic shape: %s' % str(np.array(model['doc_topic_dists']).shape))
+log('doc lengths shape: %s' % str(np.array(model['doc_lengths']).shape))
+
+log('using %s cores' % model['n_jobs'])
+log('measuring topic distance using %s' % model['mds'])
+
+log('preparing visualization...')
+data = pyLDAvis.prepare(**model)
+
+log('writing html...')
+html = pyLDAvis.prepared_data_to_html(data)
+
+print(html)
