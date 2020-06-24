@@ -18,20 +18,13 @@ ok := $(filter $(need),$(firstword $(sort $(MAKE_VERSION) $(need))))
 make_check := $(if $(ok),,\
 	$(error Please use GNU make $(need) or later))
 
-.PHONY: \
-check_tools \
-clean \
-superclean \
-superduperclean \
-confirm
-
-check_tools:
-	$(foreach tool,$(TOOLS),\
+# check for the build tools we need
+X := $(foreach tool,$(TOOLS),\
 	$(if $(shell which $(tool)),,\
-	$(error Please install $(tool) and ensure it is in your path.)))
+	$(error "Please install $(tool) and ensure it is in your path.")))
 
 # get publication dates of issues in our year range
-dates.txt: check_tools
+dates.txt:
 	year=$(STARTYEAR) ; while [[ $$year -le $(STOPYEAR) ]] ; do \
 	curl -s $(DTH)?news_year=$$year \
 	| pup 'td.active attr{rel}' >> dates.txt ; \
@@ -43,7 +36,7 @@ ocr/downloaded: dates.txt
 	./download.sh
 
 # install latest development version of MALLET
-$(MALLET): check_tools
+$(MALLET):
 	git clone https://github.com/mimno/Mallet.git mallet
 	cd mallet && ant test
 	sed -i -e 's/MEMORY=1g/MEMORY=$(MEMORY)/g' $@
@@ -141,6 +134,12 @@ superclean: confirm
 
 superduperclean: superclean
 	rm -rf models viz
+
+.PHONY: \
+clean \
+superclean \
+superduperclean \
+confirm
 
 # expensive-to-generate files
 .PRECIOUS: \
