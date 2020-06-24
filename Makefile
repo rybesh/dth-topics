@@ -39,7 +39,7 @@ dates.txt: check_tools
 	done
 
 # download OCR for all pages
-ocr: dates.txt
+ocr/downloaded: dates.txt
 	./download.sh
 
 # install latest development version of MALLET
@@ -49,7 +49,7 @@ $(MALLET): check_tools
 	sed -i -e 's/MEMORY=1g/MEMORY=$(MEMORY)/g' $@
 
 # turn OCR data into a MALLET feature sequence
-ocr.sequence: ocr | $(MALLET)
+ocr.sequence: ocr/downloaded | $(MALLET)
 	$(MALLET) import-dir \
 	--input ocr \
 	--keep-sequence \

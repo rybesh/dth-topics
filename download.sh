@@ -24,4 +24,5 @@ do
             fi
         fi
     done
+    touch ocr/downloaded
 done < dates.txt
