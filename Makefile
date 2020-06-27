@@ -146,6 +146,9 @@ $(SCRATCH)/info/%-topics/topic-docs.txt \
 | viz/%-topics $(PYTHON)
 	$(PYTHON) topdocs.py $* $(SCRATCH)/info/$*-topics/topic-docs.txt > $@
 
+serve:
+	python3 -m http.server 5555 -d viz --bind 127.0.0.1
+
 archive: $(MS)/info.tar
 
 unarchive: $(MS)/info.tar
@@ -164,6 +167,7 @@ superduperclean: superclean
 	rm -rf models viz
 
 .PHONY: \
+serve \
 archive \
 unarchive \
 clean \
