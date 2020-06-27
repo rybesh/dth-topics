@@ -83,7 +83,8 @@ $(SCRATCH)/info/%-topics:
 
 $(SCRATCH)/info/%-topics/topic-word-weights.tsv \
 $(SCRATCH)/info/%-topics/doc-topics.tsv \
-$(SCRATCH)/info/%-topics/topic-docs.txt &: \
+$(SCRATCH)/info/%-topics/topic-docs.txt \
+$(SCRATCH)/info/%-topics/diagnostics.xml &: \
 models/%-topics.gz ocr.sequence | $(SCRATCH)/info/%-topics
 	$(MALLET) train-topics \
 	--num-threads $(CPUS) \
@@ -93,7 +94,8 @@ models/%-topics.gz ocr.sequence | $(SCRATCH)/info/%-topics
 	--no-inference \
 	--topic-word-weights-file $(SCRATCH)/info/$*-topics/topic-word-weights.tsv \
 	--output-doc-topics $(SCRATCH)/info/$*-topics/doc-topics.tsv \
-	--output-topic-docs $(SCRATCH)/info/$*-topics/topic-docs.txt
+	--output-topic-docs $(SCRATCH)/info/$*-topics/topic-docs.txt \
+	--diagnostics-file $(SCRATCH)/info/$*-topics/diagnostics.xml
 
 # ...end # $(SCRATCH)/info
 
@@ -116,6 +118,14 @@ $(SCRATCH)/info/%-topics/topic-word-weights.tsv \
 $(SCRATCH)/info/%-topics/doc-topics.tsv \
 | viz/%-topics $(PYTHON)
 	$(PYTHON) viz.py $(SCRATCH)/info $(SCRATCH)/info/$*-topics > $@
+# generate diagnostic visualization
+viz/%-topics/diagnostics/data.xml: \
+$(SCRATCH)/info/%-topics/diagnostics.xml
+	mkdir -p viz/$*-topics/diagnostics
+	cp $< viz/$*-topics/diagnostics/data.xml
+	ln diagnostics/index.html viz/$*-topics/diagnostics/index.html
+	ln diagnostics/style.css viz/$*-topics/diagnostics/style.css
+	ln diagnostics/code.js viz/$*-topics/diagnostics/code.js
 
 # create lists of top documents per topic
 viz/%-topics/topdocs.html: \
@@ -152,5 +162,6 @@ $(SCRATCH)/info/feature-counts.tsv \
 $(SCRATCH)/info/%-topics/topic-word-weights.tsv \
 $(SCRATCH)/info/%-topics/doc-topics.tsv \
 $(SCRATCH)/info/%-topics/topic-docs.txt \
+$(SCRATCH)/info/%-topics/diagnostics.xml \
 viz/%-topics/index.html \
 viz/%-topics/topdocs.html
