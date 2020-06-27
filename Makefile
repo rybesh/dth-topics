@@ -10,6 +10,9 @@ MEMORY ?= 12g
 CPUS ?= $(shell sysctl hw.ncpu | cut -d ' ' -f 2)
 
 # where to put big intermediate files
+# hyperparameter optimization settings
+OPTIMIZATION = --optimize-interval 20 --optimize-burn-in 50 # keep this space
+
 SCRATCH ?= .
 MS ?= .
 
@@ -23,6 +26,10 @@ make_check := $(if $(ok),,\
 X := $(foreach tool,$(TOOLS),\
 	$(if $(shell which $(tool)),,\
 	$(error "Please install $(tool) and ensure it is in your path.")))
+
+# utils for parsing model names
+n_topics = $(word 1,$(subst -, ,$1))
+optimize = $(word 2,$(subst -, ,$1))
 
 # get publication dates of issues in our year range
 dates.txt:
@@ -56,7 +63,8 @@ models/%-topics.gz: ocr.sequence
 	$(MALLET) train-topics \
 	--num-threads $(CPUS) \
 	--input ocr.sequence \
-	--num-topics $* \
+	--num-topics $(call n_topics,$*) \
+	$(and $(call optimize,$*),$(OPTIMIZATION))\
 	--output-state $@
 
 # $(SCRATCH)/info is for possibly very large intermediate data files...
@@ -90,7 +98,8 @@ models/%-topics.gz ocr.sequence | $(SCRATCH)/info/%-topics
 	$(MALLET) train-topics \
 	--num-threads $(CPUS) \
 	--input ocr.sequence \
-	--num-topics $* \
+	--num-topics $(call n_topics,$*) \
+	$(and $(call optimize,$*),$(OPTIMIZATION))\
 	--input-state $< \
 	--no-inference \
 	--topic-word-weights-file $(SCRATCH)/info/$*-topics/topic-word-weights.tsv \
