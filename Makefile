@@ -9,10 +9,10 @@ PYTHON = ./venv/bin/python
 MEMORY ?= 12g
 CPUS ?= $(shell sysctl hw.ncpu | cut -d ' ' -f 2)
 
-# where to put big intermediate files
 # hyperparameter optimization settings
 OPTIMIZATION = --optimize-interval 20 --optimize-burn-in 50 # keep this space
 
+# where to put big intermediate and archived files
 SCRATCH ?= .
 MS ?= .
 
