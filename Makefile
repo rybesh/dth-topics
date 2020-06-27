@@ -11,6 +11,7 @@ CPUS ?= $(shell sysctl hw.ncpu | cut -d ' ' -f 2)
 
 # where to put big intermediate files
 SCRATCH ?= .
+MS ?= .
 
 # check for the make version we need
 need := 4.3
@@ -99,6 +100,9 @@ models/%-topics.gz ocr.sequence | $(SCRATCH)/info/%-topics
 
 # ...end # $(SCRATCH)/info
 
+$(MS)/info.tar: $(SCRATCH)/info
+	tar -cvf $@ $<
+
 $(PYTHON):
 	python3 -m venv venv
 	./venv/bin/pip install --upgrade pip
@@ -133,6 +137,11 @@ $(SCRATCH)/info/%-topics/topic-docs.txt \
 | viz/%-topics $(PYTHON)
 	$(PYTHON) topdocs.py $* $(SCRATCH)/info/$*-topics/topic-docs.txt > $@
 
+archive: $(MS)/info.tar
+
+unarchive: $(MS)/info.tar
+	tar -xvf $<
+
 clean:
 	rm -rf ocr.sequence $(SCRATCH)/info
 
@@ -146,6 +155,8 @@ superduperclean: superclean
 	rm -rf models viz
 
 .PHONY: \
+archive \
+unarchive \
 clean \
 superclean \
 superduperclean \
