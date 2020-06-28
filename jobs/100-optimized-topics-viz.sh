@@ -2,7 +2,7 @@
 
 #SBATCH -p general
 #SBATCH -N 1
-#SBATCH --mem 128G
+#SBATCH --mem 100G
 #SBATCH -n 16
 #SBATCH -t 6:00:00
 #SBATCH --mail-type=ALL
@@ -15,7 +15,7 @@ module add apache-ant/1.10.8
 module add go/1.14.4
 
 cd "$HOME/dth-topics" || exit
-MEMORY=128g \
+MEMORY=100g \
 CPUS=16 \
 SCRATCH="$HOME/scratch" \
 make viz/100-optimized-topics/index.html
