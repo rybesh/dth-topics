@@ -1,0 +1,391 @@
+./venv/bin/python viz.py /nas/longleaf/home/ryanshaw/scratch/info /nas/longleaf/home/ryanshaw/scratch/info/50-optimized-topics > viz/50-optimized-topics/index.html
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+loading document lengths...
+loading vocabulary...
+loading term frequencies...
+loading topic-term distributions...
+loading document-topic distributions...
+topic-term shape: (50, 3791756)
+doc-topic shape: (107632, 50)
+doc lengths shape: (107632,)
+using 16 cores
+measuring topic distance using tsne
+preparing visualization...
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+writing html...

@@ -1,0 +1,1642 @@
+mkdir -p models
+./mallet/bin/mallet train-topics \
+--num-threads 16 \
+--input ocr.sequence \
+--num-topics 50 \
+--optimize-interval 20 --optimize-burn-in 50 \
+--output-state models/50-optimized-topics.gz
+Mallet LDA: 50 topics, 6 topic bits, 111111 topic mask
+Data loaded.
+max tokens: 4705
+total tokens: 122581172
+<10> LL/token: -12.84594
+<20> LL/token: -11.28512
+<30> LL/token: -10.82536
+<40> LL/token: -10.64468
+
+0	0.1	chapel hill town students university council parking board county carrboro area staff campus people housing residents unc plan year street 
+1	0.1	baseball carolina tennis team hits runs tar hit run inning heels singles win golf home april unc field won game 
+2	0.1	student students president campus board body candidates vote congress university election members elections campaign unc page issues candidate government year 
+3	0.1	united u.s states president war government state soviet american washington military press peace north south monday tuesday national people world 
+4	0.1	students university state school unc education schools year tuition student percent faculty program carolina increase budget system north n.c page 
+5	0.1	lor ill men tor tha tin love lie iii lit tie day mil march women end ami ihe tho ion 
+6	0.1	page miss continued staff bill christmas class night music bob john daily business smith dance office graham student orchestra hill 
+7	0.1	team carolina tar meet game duke year phi state men coach page time high teams season sigma continued won field 
+8	0.1	it’s people ing don’t contact editor world iraq page time u.s show bush that’s i’m reached war doesn’t life city 
+9	0.1	ing man time back day years people good long home car found it's life thing made fire big feet told 
+10	0.1	film movie play story show love life good audience art work films man time plays it's production comedy characters performance 
+11	0.1	crossword daily abbr river puzzle answer city lost intimate part franklin yesterday's bird man's letter open christmas it's note kind 
+12	0.1	pizza franklin chicken chapel salad dinner hill cheese lunch food street restaurant fresh served bar hot open special bread coupon 
+13	0.1	student students university committee unc campus staff board year faculty carolina chapel members hill system department residence writer service school 
+14	0.1	p.m meeting hall union meet unc carolina room church students interested student campus club held sunday a.m thursday school wednesday 
+15	0.1	store durham prices hill home chapel call shoes books company goods line free full drivers book shop good sale complete 
+16	0.1	students chapel hill student business office carolina free service tar stores year summer money franklin store north day daily union 
+17	0.1	students student program unc campus carolina union center school people university health work information library club graduate research service p.m 
+18	0.1	john william james robert award unc miss thomas charles david mary ann richard iii smith charlotte george jim awards lee 
+19	0.1	people it's don't love time i'm day years make unc good black that's you're year back editor life didn't class 
+20	0.1	p.m union carolina saturday friday hall sunday tickets call a.m theatre art information hill memorial free film admission today thursday 
+21	0.1	student university students president council committee ing state year campus carolina tion school board stu members college body north class 
+22	0.1	game carolina tar yards football heels line state team ball pass back play end duke field yard score coach season 
+23	0.1	team carolina unc tar state game year heels season acc coach points duke play basketball north good win teams virginia 
+24	0.1	war army navy page air training men military time today carolina naval service washington night bill students day bob force 
+25	0.1	editor tar heel students university student time daily people good editorial make men man fact campus news years life world 
+26	0.1	call campus room summer sale needed rent wanted bedroom share free roommate utilities female month furnished great apartment found apt 
+27	0.1	editor editorial advertising manager assistant university david jennifer dth sports business john amy copy tar elizabeth daily heel production senior 
+28	0.1	carolina tar team coach season game meet duke heels points year state time heel bob conference games night sig bill 
+29	0.1	music band album rock songs call hill song chapel sound cradle show jazz bands local guitar concert franklin record street 
+30	0.1	editor it’s students people don’t time unc make ing i’m campus year that’s class years dth hill day good carolina 
+31	0.1	unc tar heels game team north season carolina acc play win points coach half state time ball year field sports 
+32	0.1	free health time coupon women service work services expires study medical care call center good cancer blood pregnancy disease valid 
+33	0.1	student students court law rights women people state university system case drug honor editor policy cases public government legal abortion 
+34	0.1	student editor ing carolina campus bill students time daily good man manager hill heel university news people tar chapel staff 
+35	0.1	student tar heel students daily room office carolina day campus summer classes activities a.m p.m hill business chapel board tha 
+36	0.1	tne university professor american english history department state art ana school classes staff page north college french books courses book 
+37	0.1	university carolina year college school hill men chapel work north night state class students president club made meeting durham man 
+38	0.1	carolina game ball line team men made time good virginia yards man university end score hill play north left work 
+39	0.1	year team game sports players basketball football games play years time coach fans season athletes smith school athletic player lot 
+40	0.1	god world man people life book american time years children read books christ history great death family young show faith 
+41	0.1	state president north bill vote house senate campaign court committee carolina government democratic political nixon election republican party people student 
+42	0.1	career union p.m hall carolina information business center program students services company job sponsored hanes unc office health student research 
+43	0.1	phi delta chi kappa sigma alpha fraternity shirts house suits group white franklin hill sorority psi cut sport beta chapel 
+44	0.1	university unc people school chapel hill students staff ing page center members community writer town council black years committee board 
+45	0.1	fresh food beef page it's prices good a&p pkg special bag red ann green cans soap meat white coffee large 
+46	0.1	university o'clock night meeting hall students memorial president graham student carolina members club program tonight hill committee yesterday page today 
+47	0.1	sale reg p.m price chapel hill franklin stereo good prices car open special tar system a.m condition tape speakers heel 
+48	0.1	call needed chapel hill wanted work experience day hours unc care campus time free summer month today days w/d great 
+49	0.1	police reports state chapel hill p.m editor county time street university orange page city unc a.m location arrested center carrboro 
+
+<50> LL/token: -10.54918
+[beta: 0.00642] 
+<60> LL/token: -10.4865
+<70> LL/token: -10.44643
+[beta: 0.00613] 
+<80> LL/token: -10.42339
+<90> LL/token: -10.40385
+
+0	0.10512	chapel town hill council county carrboro parking area board residents water housing orange university street public plan people staff building 
+1	0.06781	baseball tennis runs hits run tar inning carolina hit singles april field home heels doubles golf win base game innings 
+2	0.09067	student students president campus body candidates board congress vote election elections government candidate campaign members issues page committee senior university 
+3	0.10064	united u.s states war president government soviet american military peace washington press world south monday state foreign tuesday officials people 
+4	0.09245	state university students unc school schools year education tuition percent budget increase carolina n.c north system page faculty board money 
+5	0.07183	lor ill tor men tin lie iii ihe end lit tho tie arc ion tha mil ami hut lot til 
+6	0.06416	page continued class bill daily staff student business office manager bob miss news campus union orch jack carolina advertising john 
+7	0.08244	team carolina tar meet game duke year coach state men phi page teams time sigma season continued high varsity afternoon 
+8	0.07959	it’s people contact editor don’t ing we’re page free time that’s reached i’m city there’s event lot center doesn’t he’s 
+9	0.11788	time back day man night room ing home long left car good house found made feet days fire place years 
+10	0.11177	film movie play story show films life love audience comedy man good production movies plays characters cast time character star 
+11	0.0858	daily crossword abbr river puzzle part city reserved tribune answer rights bird kind french letter yesterday's small news lost time 
+12	0.08864	pizza franklin chapel chicken hill dinner salad lunch cheese street restaurant food fresh bar open hot served special bread coupon 
+13	0.09524	students student university committee campus unc staff board year faculty carolina members residence writer president department black system service chapel 
+14	0.0871	p.m union meeting hall carolina meet room campus interested unc club a.m student held wednesday thursday students call sunday church 
+15	0.06802	durham call hill goods line shoes drivers store home prices raleigh chapel free company manager students agent good university hats 
+16	0.09904	chapel hill students free stores student store service franklin price books card offer prices money office time business call buy 
+17	0.10242	students student program unc school carolina university campus center work class graduate people research staff programs education college year group 
+18	0.07246	john miss william james robert hill mary charles charlotte thomas george smith award ann mrs david raleigh richard bill jim 
+19	0.11051	it's people don't love i'm time day good unc that's you're make lot we're year can't didn't years back things 
+20	0.09242	p.m carolina saturday art friday call hall tickets union sunday music theatre hill information memorial show free concert chapel admission 
+21	0.10572	student students university council ing committee president state tion campus year stu college carolina board north school con chairman party 
+22	0.07936	game carolina tar yards football heels state line pass team ball play back field end duke yard season week quarterback 
+23	0.08418	team unc carolina tar heels state game acc season year points coach duke north win tournament play virginia conference n.c 
+24	0.07877	war navy army page air men students training carolina military service naval college time bill today corps school office campus 
+25	0.13486	editor students student tar heel people university daily time editorial make fact letters campus news system good world freedom years 
+26	0.07375	call campus summer room needed rent sale free utilities month bedroom wanted roommate share furnished female great apartment apt found 
+27	0.05668	editor editorial manager advertising assistant jennifer david business amy university sports john laura production copy elizabeth senior features national chris 
+28	0.06944	carolina tar team coach duke meet heels season game state points time bob year phi conference heel record sig win 
+29	0.07561	music band album songs rock song sound bands jazz hill cradle chapel guitar record show concert local records musical group 
+30	0.07696	editor students it’s people don’t unc time campus dth make ing student university editorial i’m board year carolina that’s day 
+31	0.06356	unc tar heels game north team carolina acc season win points play coach state time half senior ball sports duke 
+32	0.08247	health medical care women time free study cancer disease hospital patients research blood aids services medicine center treatment service pregnancy 
+33	0.0831	court law case rights honor cases legal trial women drug judge supreme state attorney system code laws guilty death decision 
+34	0.10254	ing student editor carolina time bill good daily campus man manager hill staff tion chapel students heel tar year university 
+35	0.07203	tar student heel daily classes a.m carolina tha business office p.m day summer jan chapel hill fee activities north year 
+36	0.0755	tne professor department university american english courses staff college school education tion ana french art history science books ing state 
+37	0.10563	university carolina men year college school north chapel state work hill class students president night made ing man club time 
+38	0.06909	carolina game ball team line score virginia yards time made play left good end yard field played men half man 
+39	0.08754	team year football sports players basketball game games coach season play years athletic teams school player athletes national college fans 
+40	0.08843	book world god life man people church books american history years read christian religion great christ religious reading time poetry 
+41	0.08467	state north president senate vote campaign bill house democratic carolina party republican political election county sen democrats tax national people 
+42	0.08063	career business job information company services carolina hall hanes program union jobs management work resume sales research placement financial fair 
+43	0.08724	phi delta sigma alpha chi kappa fraternity shirts suits franklin house group shop sorority hill white psi sport phone wool 
+44	0.08043	university people unc students black ing staff school members chapel hill center writer community student committee page it’s tion years 
+45	0.06498	fresh food beef prices a&p pkg page cans soap coupon cream ann bag milk meat coffee price limit lbs special 
+46	0.1036	university night o'clock meeting hall students memorial club president carolina graham members student program tonight committee today hill page held 
+47	0.0822	sale call good stereo price hill chapel reg p.m condition car franklin radio durham prices excellent special system open power 
+48	0.0635	call needed chapel hill wanted work experience day hours time care unc campus today free w/d days required summer apply 
+49	0.08145	police reports state chapel hill p.m time editor county a.m arrested university reported unc orange page street location hall car 
+
+[beta: 0.00604] 
+<100> LL/token: -10.39044
+<110> LL/token: -10.37722
+[beta: 0.006] 
+<120> LL/token: -10.36822
+<130> LL/token: -10.35953
+[beta: 0.00597] 
+<140> LL/token: -10.35298
+
+0	0.11083	chapel town hill council county carrboro parking area board residents orange water housing public street university plan people building staff 
+1	0.05038	baseball tennis runs hits run inning tar hit carolina singles april field home doubles heels base win game golf innings 
+2	0.08339	student students president campus body candidates board congress vote election elections government candidate members campaign committee senior issues page year 
+3	0.09599	united u.s states war president government soviet american military washington peace world press south monday people officials foreign tuesday troops 
+4	0.09028	state university students unc school schools year tuition budget increase percent education n.c page carolina north system board money faculty 
+5	0.08159	lor ill tor lie men tin iii ihe arc end tho lit tie ion ami mil hut lot tha til 
+6	0.03929	page bill class continued student staff daily manager business office bob campus news miss union orch students carolina advertising jack 
+7	0.06677	team carolina tar meet game duke year coach phi state men page teams time sigma season continued high varsity afternoon 
+8	0.07153	it’s contact editor people don’t ing we’re time page free center unc reached i’m that’s event lot city there’s udesk@unc.edu 
+9	0.16566	time back day night man room home long left days house found place years car good made ing feet water 
+10	0.10976	film movie play story show films comedy life love man audience movies production characters good plays star character cast shows 
+11	0.07226	daily crossword abbr river puzzle part reserved city tribune rights answer bird kind yesterday's french letter small media time services 
+12	0.08562	pizza franklin chicken chapel salad dinner hill lunch cheese restaurant food street fresh bar served hot open special bread beef 
+13	0.08788	students student university committee campus unc staff board year faculty carolina members president black residence writer system department chapel service 
+14	0.08628	p.m union hall meeting carolina meet campus a.m room interested club student unc held wednesday call thursday information students sunday 
+15	0.03932	durham hill call goods university line manager chapel drivers shoes raleigh night store president home prices students agent month company 
+16	0.11067	chapel hill free store stores franklin service student students price offer card prices books center call buy money coupon purchase 
+17	0.11798	students program student school unc university carolina work campus center graduate college education class research programs study year staff department 
+18	0.07481	john miss william james robert hill mary charles charlotte thomas mrs smith george ann raleigh david award chapel bill greensboro 
+19	0.12427	it's don't people love i'm time good day that's unc you're make lot year we're can't didn't back things there's 
+20	0.08969	p.m art carolina saturday call friday hall tickets music union sunday theatre hill information memorial concert show chapel free arts 
+21	0.10049	student students university ing council committee president tion state year campus college north carolina con stu school chairman board hill 
+22	0.06759	game carolina yards tar football heels state line pass ball play team back field end yard season duke defense quarterback 
+23	0.07129	unc team carolina tar heels state game acc season points year duke coach north win tournament virginia play n.c conference 
+24	0.06211	war navy army page men carolina air students training military service naval college bill time campus today office corps heel 
+25	0.16892	editor people students student tar heel daily university time editorial make fact letters freedom system world news campus years good 
+26	0.05825	call campus summer room needed rent sale month utilities free bedroom wanted roommate share furnished apartment female great apt pool 
+27	0.03425	editor manager advertising editorial assistant jennifer david business amy production laura university sports john copy elizabeth features senior national scott 
+28	0.05126	carolina tar team duke meet coach heels state game season points time bob year phi heel conference record sig win 
+29	0.05982	music band album songs rock song sound bands guitar record cradle show jazz chapel local concert hill records musical group 
+30	0.05918	editor students it’s people don’t dth unc time campus editorial ing make board student university i’m year phone number carolina 
+31	0.04494	unc tar heels game north team carolina acc season win points play coach state time half senior sports ball duke 
+32	0.07231	health medical care women research hospital study cancer disease patients aids time blood medicine free treatment drug pregnancy services control 
+33	0.07656	court law case honor trial judge attorney cases supreme legal rights guilty decision death justice code federal laws jury drug 
+34	0.09079	ing student editor carolina time good daily bill campus man manager heel staff tar students don't tion year hill chapel 
+35	0.04555	tar student heel daily classes tha a.m carolina business jan day chapel office summer fee dec p.m insertion north hill 
+36	0.06414	tne professor department ana university staff american tion courses college english french education art school state science history ing con 
+37	0.10415	university carolina men year college state school north work chapel hill students class ing made man club time high president 
+38	0.04685	carolina game ball team line score yards virginia made left time end yard play good played field half makes goal 
+39	0.09162	team year football sports players basketball coach season games game play years athletic teams school player national athletes college high 
+40	0.08552	book god life world church books man history read christian american reading religion people years religious great christ poetry story 
+41	0.08143	state president vote north senate campaign democratic party house bill republican political election carolina democrats sen national county candidate tax 
+42	0.06553	career business job company information services carolina jobs hall management hanes work sales program resume insurance financial placement companies research 
+43	0.08283	phi delta sigma alpha fraternity kappa chi shirts suits franklin group house shop sorority hill sport phone psi cut wool 
+44	0.06522	university people unc students black ing staff members student center community writer chapel hill school page committee it’s tion group 
+45	0.04073	fresh beef food a&p pkg prices page cans soap coupon ann bag cream meat lbs milk limit red coffee price 
+46	0.10516	university night meeting o'clock hall president students club memorial members graham student carolina committee program tonight held today dance yesterday 
+47	0.07143	sale call good stereo condition p.m hill price chapel car reg franklin radio durham excellent prices system special miles contact 
+48	0.04252	call needed chapel hill work wanted experience hours day time care unc today free campus w/d required days apply flexible 
+49	0.06711	police reports state chapel hill p.m time a.m arrested editor reported county university car orange page hall unc street charged 
+
+<150> LL/token: -10.34619
+[beta: 0.00596] 
+<160> LL/token: -10.34113
+<170> LL/token: -10.33593
+[beta: 0.00595] 
+<180> LL/token: -10.33186
+<190> LL/token: -10.32791
+
+0	0.11186	chapel town hill council county carrboro parking board area orange residents water housing public university street plan people staff building 
+1	0.04545	baseball runs tennis hits run inning hit carolina tar singles april field doubles home heels base win game innings golf 
+2	0.08156	student students campus president body candidates board congress vote elections election government members candidate committee senior campaign class year issues 
+3	0.09326	united u.s states war president soviet government american military washington peace world press south monday officials tuesday people foreign troops 
+4	0.09022	university state students unc school budget year schools tuition percent increase n.c page education board system north money carolina faculty 
+5	0.09	lor ill tor men lie tin iii ihe arc end tho lit tie ion mil ami hut til nil tht 
+6	0.03208	page bill continued student class staff daily manager business office bob campus news carolina orch miss students union advertising university 
+7	0.06077	team carolina tar meet game duke year coach phi state men sigma season teams time page continued varsity high afternoon 
+8	0.07199	it’s editor contact people don’t ing unc time we’re page center free reached i’m event that’s hill carolina lot city 
+9	0.19398	time back day night man room home long left good days made place years found house people car head feet 
+10	0.1033	film movie play story show films comedy love life movies man audience production characters plays good star shows character cast 
+11	0.06593	daily crossword abbr river part puzzle reserved city tribune rights answer bird yesterday's french kind media letter services time small 
+12	0.08311	pizza franklin chicken salad dinner chapel hill cheese lunch restaurant food street fresh bar served hot open special bread beef 
+13	0.08504	student students university committee campus unc staff board year carolina faculty members president black residence writer system department chapel service 
+14	0.08962	p.m union hall carolina meeting meet campus student a.m club interested room unc information call wednesday held thursday students office 
+15	0.02958	durham university hill manager night president goods call chapel line shoes raleigh drivers students prices store home north month agent 
+16	0.11642	chapel hill free franklin service store stores student students price offer prices card center call coupon books purchase buy daily 
+17	0.12975	students school program student university unc work college education graduate carolina research class study campus department year center programs professor 
+18	0.07859	john miss william james robert mary hill charles charlotte mrs thomas george smith ann raleigh david bill chapel greensboro richard 
+19	0.12854	it's don't people love i'm good time day unc that's you're lot year we're make can't didn't dth things there's 
+20	0.08737	p.m art carolina call saturday hall music friday tickets union sunday hill theatre information concert memorial show chapel arts free 
+21	0.09438	student students university ing tion committee state president north council carolina year con campus college unc hill stu chairman school 
+22	0.06371	game yards carolina tar football state heels line pass play ball back team field end yard season defense quarterback duke 
+23	0.06614	unc carolina team tar heels state game acc season points duke year coach north win tournament virginia play n.c saturday 
+24	0.05602	war navy army page men carolina air students training military service naval bill college time campus today tar office heel 
+25	0.18253	editor people student tar students heel daily time university make editorial fact letters freedom world system news campus american years 
+26	0.05404	call campus summer room needed rent month sale utilities free bedroom roommate wanted share furnished apartment great female pool apt 
+27	0.02852	editor manager advertising editorial assistant jennifer david business amy production laura university sports john copy features senior elizabeth national carolina 
+28	0.0458	carolina tar team duke meet coach heels state game season points time bob phi year heel conference record sig win 
+29	0.05448	music band album songs rock song sound bands guitar record show cradle jazz records concert musical good local group pop 
+30	0.05053	editor students it’s people don’t dth editorial unc time ing campus board make student university letters i’m number phone year 
+31	0.04005	unc tar heels game north team acc carolina season win points play coach time state half sports senior ball duke 
+32	0.06868	health medical women care research hospital cancer disease study patients aids drug blood medicine time treatment pregnancy people abortion control 
+33	0.07419	court law case trial honor judge attorney cases supreme legal guilty justice death decision code jury federal charges rights system 
+34	0.08422	student ing editor carolina daily time good campus bill heel man tar manager students staff year university tion don't hill 
+35	0.03549	tar heel student daily classes tha a.m business carolina jan day chapel dec insertion fee north summer p.m office n.c 
+36	0.05643	tne ana staff department american french tion art professor daily ine courses education college con english ior hist jack university 
+37	0.10362	university carolina men year college state north school work chapel hill students ing class made man time tar club high 
+38	0.03955	carolina game ball line team score yards virginia yard time left made end play field played good half makes goal 
+39	0.09586	team year football sports season coach players basketball games game play years teams athletic school national player college athletes high 
+40	0.08536	book church god books life world man history christian american read reading religion religious years christ people great poetry bible 
+41	0.08147	state vote campaign president senate north democratic party republican house election bill political carolina democrats candidate national sen candidates county 
+42	0.06082	career business job company services information jobs carolina hall management hanes work sales insurance resume program financial companies placement fair 
+43	0.0814	phi sigma delta alpha fraternity shirts chi kappa suits franklin group house shop sorority reg sport phone hill sale cut 
+44	0.06074	university people unc students black ing staff members student center community writer tion it’s chapel hill committee page school group 
+45	0.03213	fresh a&p pkg beef food prices page coupon cans soap ann bag lbs price limit red cream meat milk save 
+46	0.10555	university night meeting o'clock hall president students club student members graham memorial committee carolina tonight program held today page yesterday 
+47	0.0674	sale call good condition p.m stereo hill car price chapel reg franklin durham radio excellent prices wanted system contact service 
+48	0.03654	call needed chapel hill work wanted experience day hours time care unc today w/d free campus required apply days flexible 
+49	0.0608	police reports state chapel hill p.m time arrested a.m reported editor university county car charged hall unc orange officers man 
+
+[beta: 0.00594] 
+<200> LL/token: -10.32502
+<210> LL/token: -10.32116
+[beta: 0.00593] 
+<220> LL/token: -10.31865
+<230> LL/token: -10.3159
+[beta: 0.00593] 
+<240> LL/token: -10.314
+
+0	0.11117	chapel town hill council county carrboro board parking area orange residents water housing public university street plan building staff people 
+1	0.04187	baseball runs tennis hits run inning tar carolina hit singles april field doubles home heels game base win innings golf 
+2	0.08067	student students campus president body candidates board congress vote elections election government committee members senior candidate class campaign year university 
+3	0.0905	united u.s states war president soviet government american military washington peace world press monday south officials tuesday troops foreign people 
+4	0.09078	university state students unc school budget tuition year increase percent schools page n.c board system money education north carolina faculty 
+5	0.09873	lor ill tor men tin lie iii arc ihe tho end lit tie ion mil ami hut til lot tha 
+6	0.02701	page bill student continued class staff daily manager business office bob campus news carolina orch miss advertising sports union students 
+7	0.05631	team carolina tar meet game duke year coach phi state men sigma time page season teams continued varsity high afternoon 
+8	0.07382	it’s editor people contact don’t ing unc page time we’re center free reached hill carolina i’m lot event chapel that’s 
+9	0.22393	time back day night man room home long left good years days made place people house found car head thing 
+10	0.09433	film movie play story show films comedy love life movies man audience production characters star shows character plays good cast 
+11	0.06002	crossword daily abbr river puzzle part reserved city tribune rights answer bird media yesterday's time letter kind work french small 
+12	0.07941	pizza chicken franklin salad dinner chapel cheese lunch hill food restaurant street fresh served bar hot bread beef special open 
+13	0.08185	student students university committee campus staff unc board year carolina members faculty president black writer residence chapel system service hill 
+14	0.09499	p.m union hall carolina meeting student meet campus club a.m interested unc room information call students wednesday thursday held office 
+15	0.02287	university durham hill president night manager chapel goods line call raleigh shoes drivers students prices store north home month agent 
+16	0.12075	chapel hill free franklin service store student stores offer students price center coupon card prices call buy purchase street open 
+17	0.14507	students school program university student unc college education work graduate department class research carolina study professor year faculty summer science 
+18	0.08316	john miss william james robert mary hill charles charlotte mrs george thomas smith ann raleigh david greensboro bill chapel lee 
+19	0.12994	it's don't people love i'm good time day unc that's you're lot we're year make can't didn't dth there's things 
+20	0.08365	p.m art carolina call saturday music hall friday tickets sunday union theatre hill information concert memorial show chapel arts free 
+21	0.08429	student students university ing tion north state committee president con carolina year unc college campus council hill chairman stu chapel 
+22	0.06004	game yards carolina tar football state heels line pass play ball back team end field season yard defense quarterback duke 
+23	0.06125	unc carolina tar team heels state game acc points season duke north year win coach tournament virginia n.c play saturday 
+24	0.0506	war navy army page carolina men air students training military service naval college bill time today tar campus heel ing 
+25	0.19319	editor people tar student students heel daily time university make fact editorial world freedom letters system news american campus years 
+26	0.05031	call campus summer room rent needed month utilities sale free bedroom roommate wanted apartment share furnished great female pool house 
+27	0.02445	editor manager advertising editorial assistant jennifer david business amy production laura sports university john copy features senior elizabeth national scott 
+28	0.04171	carolina tar team duke meet heels coach state game points season time phi bob year heel conference record win sig 
+29	0.05001	music band album songs rock song sound bands guitar record show cradle jazz records musical good pop local concert group 
+30	0.04217	editor students it’s dth people don’t editorial unc time ing board make campus student letters university i’m phone number tar 
+31	0.03691	unc tar heels game team north acc carolina season win points play coach time state half sports senior ball duke 
+32	0.06635	health medical women care research drug hospital cancer disease study patients aids blood abortion people medicine treatment pregnancy control doctors 
+33	0.07154	court law case honor trial judge attorney cases supreme legal justice guilty code decision death jury charges federal prison system 
+34	0.07554	student editor ing daily carolina time bill good campus heel tar manager students staff man year university don't tion hill 
+35	0.02743	tar heel student daily tha classes a.m business carolina jan insertion dec chapel day fee n.c north p.m summer subscription 
+36	0.04596	tne ana staff art ine department daily french american ior hist jack phil tion nave chem thp board xne robert 
+37	0.10381	university carolina men year college state north work chapel school hill ing students class made man tar time heel club 
+38	0.03346	carolina game ball line team score yards virginia yard left time made end play field played good half goal makes 
+39	0.09984	team year football season coach sports basketball players games game play years teams athletic school national player college athletes high 
+40	0.08523	book church books god life world history christian man read american religion reading religious christ years great poetry bible people 
+41	0.08129	state vote campaign president senate north democratic party election republican political bill house carolina democrats candidate candidates sen national voters 
+42	0.05727	career business job company services information jobs carolina management work insurance sales hanes companies financial resume hall program placement fair 
+43	0.07894	phi sigma shirts delta fraternity alpha chi kappa suits franklin group shop house reg sorority phone sport sale cut hill 
+44	0.05859	people university unc students black ing student members staff center community writer tion group it’s committee chapel hill page women 
+45	0.02537	a&p pkg fresh beef food prices page coupon cans soap ann lbs bag limit price meat juice save parker red 
+46	0.10589	university night meeting o'clock president hall student club students members graham memorial committee carolina tonight program held today yesterday page 
+47	0.06331	sale call good p.m condition stereo hill car chapel price durham radio reg franklin excellent prices wanted system service contact 
+48	0.03192	call needed chapel hill work wanted experience day hours time care unc today free days apply required flexible campus student 
+49	0.05629	police reports state chapel hill p.m time arrested a.m reported university editor car county officers charged man hall orange street 
+
+<250> LL/token: -10.31177
+[beta: 0.00592] 
+<260> LL/token: -10.30985
+<270> LL/token: -10.30791
+[beta: 0.00592] 
+<280> LL/token: -10.30619
+<290> LL/token: -10.30461
+
+0	0.11042	chapel town hill council county carrboro board parking area orange residents university housing water public street plan staff building people 
+1	0.04055	baseball runs tennis hits run tar inning carolina hit singles field april home doubles heels base win game innings single 
+2	0.08098	student students campus president body candidates board congress elections vote government election committee members senior class candidate year university council 
+3	0.08915	united u.s states war president government soviet military american washington peace world press monday south officials tuesday foreign troops people 
+4	0.09092	university state students unc budget increase school tuition year percent schools board page n.c money system carolina education north student 
+5	0.10317	lor ill men tor lie tin iii arc ihe tho end lit tie mil ion ami hut til nil tha 
+6	0.02503	page bill student continued staff daily class manager business office bob campus news carolina orch sports miss union students advertising 
+7	0.05416	team carolina tar meet game duke phi coach year state men sigma page time teams season continued varsity afternoon high 
+8	0.07442	it’s editor people contact don’t ing unc page time we’re center reached hill free carolina chapel event i’m lot that’s 
+9	0.23805	time back day night man room home long good left years people place days made found house thing big put 
+10	0.0898	film movie play story show films comedy movies life love man audience characters production shows star character world plays cast 
+11	0.05776	crossword daily abbr river puzzle part reserved city tribune rights time work answer bird media services kind yesterday's french letter 
+12	0.07769	pizza chicken salad franklin dinner cheese chapel lunch restaurant food hill fresh street served hot bar bread beef special eat 
+13	0.08017	student students university committee campus staff unc board year carolina members black president faculty writer chapel residence system service hill 
+14	0.09813	p.m union hall carolina meeting student campus meet club a.m interested unc room information students call wednesday held thursday office 
+15	0.02059	university durham hill president night manager chapel line goods call raleigh shoes drivers students prices north store good team home 
+16	0.12217	chapel hill free franklin service store student stores coupon offer center price students call card prices street buy purchase open 
+17	0.15264	students school program university student unc college education work graduate department class professor study research faculty year summer carolina science 
+18	0.08546	john miss james william robert hill mary charles charlotte mrs george smith thomas ann raleigh david bill chapel greensboro durham 
+19	0.12869	it's don't people love i'm good time day unc that's you're we're lot year make can't didn't dth there's things 
+20	0.08166	p.m art carolina call music saturday hall friday tickets sunday theatre union hill concert information memorial show chapel arts festival 
+21	0.07842	student ing students university tion state north committee president carolina con unc year hill campus college chairman council stu chapel 
+22	0.05879	game yards carolina tar football state heels line pass play ball back team field end season defense yard quarterback duke 
+23	0.05911	unc carolina tar team heels state game acc points season duke north win coach year tournament virginia n.c play saturday 
+24	0.04837	war navy army page carolina men air training students military service naval college bill campus time heel tar ing today 
+25	0.19587	editor people tar student students daily heel time university make fact world editorial freedom letters american system years campus government 
+26	0.04877	call campus summer room rent month needed utilities sale free bedroom roommate apartment wanted furnished share great female pool house 
+27	0.02293	editor manager advertising editorial assistant jennifer david business amy production laura sports university john copy senior features elizabeth carolina national 
+28	0.03994	carolina tar team duke meet heels state coach game points time season phi bob year heel conference record sig win 
+29	0.04805	music band album songs rock song sound bands guitar show record cradle jazz good records musical pop local concert group 
+30	0.03856	editor students it’s dth don’t people editorial unc time ing board campus make student letters university phone tar i’m number 
+31	0.03598	unc tar heels game team north acc carolina season win points play coach time state half sports senior it’s duke 
+32	0.06592	health medical women care research drug hospital cancer study disease aids patients abortion blood people treatment medicine control pregnancy doctors 
+33	0.06973	court law case honor trial judge attorney cases supreme legal justice guilty code decision jury death charges federal system prison 
+34	0.07075	student editor ing daily carolina heel time bill campus tar good students manager staff man university year tion don't hill 
+35	0.0245	tar heel student tha daily classes a.m business carolina jan insertion day dec chapel n.c fee p.m north summer subscription 
+36	0.04112	tne ana staff ine art daily hist ior french nave phil jack thp department chem xne american nas chairman win 
+37	0.10461	university carolina men year college state north work chapel school hill ing students made class man tar time heel years 
+38	0.03078	carolina game ball line team score yards virginia yard left made end time play field played good half goal makes 
+39	0.1015	team year season football coach sports basketball players games game play teams years athletic school national player college athletes high 
+40	0.0849	book church books god life world christian history man read american religion reading religious christ poetry bible great sunday years 
+41	0.0813	state vote campaign president senate north democratic party election republican political bill house carolina candidates candidate democrats voters sen national 
+42	0.05621	career business company job services information jobs carolina sales insurance management companies financial hanes work resume program hall placement fair 
+43	0.07754	shirts phi fraternity delta sigma alpha suits franklin chi kappa group shop reg phone sale sport cut wool house hill 
+44	0.0586	people university unc students black ing student members staff center community writer tion group committee campus chapel it’s page women 
+45	0.02249	pkg a&p fresh beef prices food page cans soap coupon ann lbs bag limit price red parker meat juice save 
+46	0.10657	university night meeting o'clock president hall club student students members committee graham memorial carolina tonight program held yesterday today page 
+47	0.06186	sale call good p.m condition stereo car hill price chapel durham radio excellent reg franklin wanted service prices contact system 
+48	0.03062	call needed chapel hill work experience wanted day hours time care unc today days free apply required flexible student campus 
+49	0.0555	police reports state chapel hill p.m time arrested a.m reported university editor car county officers man charged students street hall 
+
+[beta: 0.00592] 
+<300> LL/token: -10.30307
+<310> LL/token: -10.30169
+[beta: 0.00591] 
+<320> LL/token: -10.30045
+<330> LL/token: -10.29972
+[beta: 0.00591] 
+<340> LL/token: -10.29875
+
+0	0.10944	chapel town hill council county carrboro board area parking orange residents university water public housing street plan staff building people 
+1	0.03927	baseball runs hits tennis tar run carolina inning hit singles field april game home heels doubles win base innings single 
+2	0.08166	student students campus president body candidates board congress government elections vote election committee members class senior candidate university council year 
+3	0.08774	united u.s states war president government soviet military american washington peace press world monday south tuesday officials foreign troops state 
+4	0.09166	university state students unc budget increase percent year tuition school schools money board n.c page system student north carolina education 
+5	0.10858	lor ill men tor lie tin iii end arc ihe tho lit tie ion mil ami hut til tha women 
+6	0.02347	page bill student continued staff daily manager class business office bob campus news carolina orch editor sports miss advertising union 
+7	0.0525	team carolina tar meet game duke phi coach year state sigma men page time teams season continued kappa varsity afternoon 
+8	0.07516	it’s editor people contact unc ing don’t page time we’re center hill carolina reached free lot i’m event chapel community 
+9	0.25271	time back day night man room home long good left years people days place made thing found house life big 
+10	0.08511	film movie story play show films comedy life movies love man characters production audience shows star character world role good 
+11	0.05487	crossword daily abbr river puzzle part reserved rights tribune city time work answer media bird free services yesterday's kind letter 
+12	0.07567	pizza chicken salad franklin dinner cheese lunch food restaurant chapel hill fresh street served bar hot bread beef eat special 
+13	0.07813	student students university committee campus staff unc board year carolina members president black faculty chapel writer service residence system hill 
+14	0.10163	p.m union carolina hall meeting student campus meet club unc interested a.m students room information call office wednesday thursday held 
+15	0.01884	university durham hill president night manager chapel line goods raleigh call shoes students drivers north prices college store team good 
+16	0.12448	chapel hill free franklin service student store stores coupon offer center call students price card prices street open purchase daily 
+17	0.15932	students school university program student unc college education work graduate department class year professor summer faculty study research courses science 
+18	0.08706	john miss william james robert mary hill charles phi charlotte delta mrs smith kappa george thomas ann raleigh chi bill 
+19	0.12504	it's don't people love i'm good unc time day that's you're we're lot year make can't didn't dth there's happy 
+20	0.07941	p.m art carolina call music saturday hall friday tickets sunday theatre hill union concert information memorial show chapel arts play 
+21	0.07155	student ing university students tion north state unc carolina con committee president hill year campus college chairman chapel stu party 
+22	0.05708	game yards carolina tar football state heels line pass play ball team back field end season defense yard quarterback duke 
+23	0.05672	unc carolina tar team heels state game acc points season duke north win coach year tournament virginia n.c play saturday 
+24	0.04645	war navy army page carolina men air training students military naval service bill college ing campus time today tar heel 
+25	0.19697	editor people tar student daily students heel time university make fact world editorial freedom letters american news system life years 
+26	0.04749	call campus summer room rent month needed utilities free sale bedroom roommate apartment furnished wanted share great female pool house 
+27	0.02157	editor manager advertising editorial assistant jennifer david business amy production laura sports university john copy features senior elizabeth carolina editors 
+28	0.03797	carolina tar team duke heels meet state coach game points time season phi bob heel record conference year win chi 
+29	0.04647	music band album songs rock song sound bands guitar record show cradle records jazz good musical pop local concert group 
+30	0.03497	editor students it’s dth editorial people don’t unc board ing time make letters campus student university tar number phone heel 
+31	0.03512	unc tar heels game north team acc carolina season points win play coach time state half sports senior it’s ball 
+32	0.06534	health medical women care drug research hospital cancer disease study aids patients abortion people blood treatment medicine control pregnancy doctors 
+33	0.06811	court law case honor trial judge attorney cases supreme guilty justice legal decision code death jury charges federal prison system 
+34	0.06478	student editor ing daily carolina heel campus bill tar time manager students good staff university year man tion don't hill 
+35	0.02228	tar heel student tha daily classes a.m business carolina jan insertion day chapel dec p.m n.c fee north summer subscription 
+36	0.0369	tne ana staff ine art mgr ior hist nave phil french jack daily thp chem xne nas tnat chairman board 
+37	0.10563	university carolina men year college state north work chapel hill school ing students made class man tar time heel student 
+38	0.02861	carolina game ball line team yards score virginia yard left made end time play field played good half goal makes 
+39	0.10343	team year season coach sports football basketball players games game play teams years athletic school national player college athletes high 
+40	0.08408	book church books god life world christian history man read religion american reading religious christ sunday bible poetry christmas years 
+41	0.08067	state vote campaign president senate north election party democratic republican political bill house carolina candidate candidates democrats voters sen county 
+42	0.05542	career business company job services information jobs carolina insurance sales management companies financial hanes program work resume hall fair placement 
+43	0.07471	shirts suits franklin group shop reg phone fraternity sale phi sport alpha wool cut hill chapel special cotton wear coats 
+44	0.05905	people university unc students black ing student staff members center community writer tion group campus women it’s committee page chapel 
+45	0.01979	pkg a&p fresh beef prices page food coupon cans soap ann lbs bag limit price save meat parker pork red 
+46	0.10702	university night meeting o'clock president hall club student members students committee graham memorial carolina tonight held program yesterday today page 
+47	0.05977	sale call good condition p.m stereo car hill price chapel durham excellent radio wanted reg franklin contact service miles system 
+48	0.0294	call needed chapel hill work experience wanted day hours time care unc today days apply required free flexible student campus 
+49	0.05493	police reports state chapel hill p.m time arrested a.m reported university editor car county officers charged man students hall street 
+
+<350> LL/token: -10.29707
+[beta: 0.00591] 
+<360> LL/token: -10.29653
+<370> LL/token: -10.29521
+[beta: 0.00591] 
+<380> LL/token: -10.29425
+<390> LL/token: -10.29335
+
+0	0.10913	chapel town hill council county board carrboro parking area orange residents university water public housing street plan building staff people 
+1	0.03879	baseball runs tar carolina tennis hits run inning hit singles field april heels game home win doubles base innings match 
+2	0.08224	student students campus president body board candidates congress government elections vote election committee members class university senior council year candidate 
+3	0.08718	u.s united states war president government soviet military american washington peace world press monday tuesday south officials troops foreign state 
+4	0.09191	state university students unc budget increase percent year tuition money school schools board page system student n.c north carolina education 
+5	0.11128	lor ill men tor lie tin iii arc end ihe tho lit tie ion mil ami til hut tar tha 
+6	0.02299	page bill student staff daily continued manager class business office bob campus news editor carolina orch sports advertising miss union 
+7	0.05158	team carolina tar meet game duke coach year phi state men sigma page teams time season continued varsity afternoon high 
+8	0.07546	it’s editor people contact unc ing don’t page time we’re center carolina hill reached community lot free event i’m chapel 
+9	0.2599	time back day night man room good home long people years left made place days thing make life big found 
+10	0.08216	film movie story play show films comedy movies life love characters man star audience shows world production character role director 
+11	0.05353	crossword daily abbr river puzzle part reserved city rights tribune time work answer media bird services free kind yesterday's letter 
+12	0.07477	pizza chicken salad dinner franklin cheese food lunch restaurant chapel fresh hill served street bar hot beef bread eat beer 
+13	0.0771	student students university committee campus unc staff board year carolina president members black faculty chapel writer service residence hill system 
+14	0.10323	p.m union carolina hall student meeting campus meet club unc interested students room a.m information call office wednesday thursday held 
+15	0.01817	university durham hill night president manager chapel line goods raleigh call students shoes drivers north college prices team store good 
+16	0.12466	chapel hill free franklin service store student coupon stores offer center call price students card street prices purchase open mall 
+17	0.16231	students school university program college student education unc work graduate department summer professor class faculty year study research courses science 
+18	0.08726	phi john delta miss kappa sigma alpha james chi william robert mary fraternity hill charles charlotte mrs smith ann george 
+19	0.12167	it's don't people love i'm unc good day time that's we're you're lot year make can't dth didn't there's happy 
+20	0.0786	p.m art carolina music call saturday hall friday tickets theatre sunday hill union concert information memorial show chapel play arts 
+21	0.06797	student ing university students tion north unc carolina state con committee president hill year campus chapel college p.m chairman party 
+22	0.05639	game yards carolina tar football state heels line pass play ball back team field end season defense yard quarterback duke 
+23	0.05556	unc carolina tar team heels state game acc points season duke north win coach year tournament virginia n.c saturday smith 
+24	0.04566	war navy army carolina page men air training students military naval service bill college campus ing time heel today tar 
+25	0.19646	editor people daily tar student heel students time university make fact world editorial freedom letters american system life good news 
+26	0.0468	call campus summer room rent month needed utilities free sale bedroom roommate apartment furnished share wanted great female house pool 
+27	0.02088	editor advertising manager editorial assistant jennifer david business amy production laura university sports john copy features senior elizabeth scott classified 
+28	0.03715	carolina tar team duke heels meet state coach game points phi time season bob heel chi conference record year sig 
+29	0.04584	music band album songs rock song sound bands guitar record show cradle good records jazz pop musical local group concert 
+30	0.03321	editor students it’s dth editorial people don’t unc board ing time letters make campus student tar university heel number phone 
+31	0.0345	unc tar heels game team north acc carolina season points win play coach time state sports half senior it’s unc’s 
+32	0.06526	health medical women care research drug hospital cancer disease study people aids patients abortion blood treatment medicine control doctors drugs 
+33	0.06755	court law case honor trial judge attorney cases supreme guilty justice legal code decision jury charges death federal prison system 
+34	0.06196	student editor ing daily carolina campus bill heel tar students time manager staff good university man year tion business hill 
+35	0.02152	tar heel student tha daily a.m classes business carolina p.m insertion jan n.c chapel day dec fee summer union north 
+36	0.03523	tne ana staff ine art mgr ior hist nave phil thp french daily chem xne jack win nas american tnat 
+37	0.10578	university carolina men year college state north work chapel hill ing school students made class man tar time heel student 
+38	0.02764	carolina game ball line team yards score virginia yard end left time made field play played half good goal makes 
+39	0.10418	team year season coach sports football basketball players games game play teams years athletic school national player college athletes high 
+40	0.0831	book church books god life world christian history religion read religious man american sunday reading christ bible poetry story christmas 
+41	0.08028	state vote campaign senate election president north party democratic political republican bill house candidates carolina candidate democrats voters sen county 
+42	0.05508	career business company job services information jobs carolina insurance sales companies management financial work program hanes resume fair hall computer 
+43	0.072	shirts franklin suits shop group reg phone sale sport chapel cut wool special hill cotton coats wear price white open 
+44	0.05878	people university unc students black ing student members staff center community writer tion group campus women committee it’s page chapel 
+45	0.01848	pkg a&p fresh beef prices page food cans soap coupon ann lbs bag limit price red parker save sliced meat 
+46	0.10686	university night meeting o'clock president hall club student members committee graham students memorial carolina tonight held today yesterday program page 
+47	0.0585	call sale good condition p.m stereo car price hill chapel excellent radio durham wanted service reg miles franklin system contact 
+48	0.02916	call needed chapel work hill experience wanted day hours time care unc today days apply required flexible free student part-time 
+49	0.05467	police reports state chapel hill p.m arrested time a.m reported university editor car county officers charged man street students hall 
+
+[beta: 0.00591] 
+<400> LL/token: -10.29251
+<410> LL/token: -10.29153
+[beta: 0.00591] 
+<420> LL/token: -10.29091
+<430> LL/token: -10.29015
+[beta: 0.00591] 
+<440> LL/token: -10.2895
+
+0	0.10845	chapel town hill council county board carrboro parking area orange residents university water housing public street plan staff building road 
+1	0.03857	baseball runs tar tennis run carolina hits inning hit field singles heels april game home doubles win base innings single 
+2	0.08291	student students campus president body board candidates congress government elections vote committee election members class university senior council year candidate 
+3	0.08671	u.s united states war president government soviet military american washington peace press world monday south tuesday officials troops foreign people 
+4	0.09223	state university students unc budget increase percent tuition year money board student schools system school n.c page north carolina education 
+5	0.11487	lor ill men tor lie tin iii ihe end arc tho tie lit ion mil tar ami hut til march 
+6	0.02255	page bill student staff continued daily manager class business office bob campus news carolina editor orch sports advertising miss union 
+7	0.04965	team carolina tar meet game duke coach year state phi men page time season teams sigma continued varsity afternoon points 
+8	0.07528	it’s editor people unc contact ing don’t page time center we’re carolina reached community hill lot chapel i’m event writer 
+9	0.26826	time back day night man good room home long people years left place made days make thing life things big 
+10	0.07863	film movie story show play films comedy movies love life characters man world shows star production audience character role director 
+11	0.05233	crossword daily abbr river part puzzle reserved tribune rights time city work free answer media services bird kind yesterday's letter 
+12	0.07343	pizza chicken salad dinner franklin cheese food lunch restaurant chapel fresh hill served street beef hot bar bread eat beer 
+13	0.07589	student students university committee campus staff unc board year carolina president members black faculty chapel writer service residence system hill 
+14	0.10471	p.m union carolina hall student meeting campus meet club unc students interested a.m information room call office wednesday thursday held 
+15	0.0176	university durham hill night president manager chapel line goods raleigh call students shoes drivers north college prices team store good 
+16	0.12393	chapel hill free franklin service store coupon stores student center offer call price street students card prices open mall purchase 
+17	0.1654	students school university program college education student unc graduate work department professor faculty year class summer study research courses science 
+18	0.08729	phi delta kappa john sigma alpha miss chi fraternity james william robert mary hill charlotte charles house beta sorority mrs 
+19	0.11659	it's don't people love i'm unc good day time that's we're you're lot year make can't dth didn't there's happy 
+20	0.07784	p.m art music call carolina saturday hall friday theatre tickets sunday hill union concert information show memorial play arts chapel 
+21	0.0647	student ing university students tion north unc con carolina state hill committee president p.m year chapel college campus chairman party 
+22	0.05571	game yards carolina tar football state heels line pass play ball back team field end season defense quarterback yard duke 
+23	0.05423	unc carolina tar team heels state game acc points season duke north win coach year tournament virginia n.c play saturday 
+24	0.04493	war navy army carolina page men air training students military naval service ing bill college tar time heel today campus 
+25	0.19626	editor people tar student daily students heel time university make fact world freedom editorial letters american news life campus system 
+26	0.04575	call campus summer room rent month needed utilities free sale bedroom apartment roommate furnished share great wanted female house pool 
+27	0.02047	editor manager advertising editorial assistant jennifer david business amy production laura sports university john senior features copy elizabeth classified scott 
+28	0.03652	carolina tar team duke heels meet state coach game points season time phi bob heel conference chi win record year 
+29	0.04492	music band album songs rock song sound bands guitar record show cradle records musical jazz pop local good group love 
+30	0.03094	editor students it’s dth editorial people don’t unc board ing time letters make campus tar student university phone heel number 
+31	0.03422	unc tar heels game team north acc carolina season points win play coach time state sports half senior it’s duke 
+32	0.06477	health medical women care drug research hospital cancer disease study people aids patients abortion blood treatment medicine control drugs doctors 
+33	0.06656	court law case honor trial judge attorney cases supreme justice guilty legal decision code jury death charges federal system prison 
+34	0.05807	student editor ing daily carolina bill heel campus tar manager time students staff university good year man tion hill business 
+35	0.02087	tar heel student tha daily a.m classes business carolina p.m n.c insertion day jan chapel dec fee north summer union 
+36	0.03386	tne ana staff ine art mgr hist ior nave phil thp chem french xne jack nas daily tnat win robert 
+37	0.10543	university carolina men year college state north work chapel hill ing school students made class man tar time heel student 
+38	0.02651	carolina game ball line team yards score virginia yard left end made time play field played half good goal makes 
+39	0.10469	team year season coach sports football basketball players games game play teams years athletic school national player college athletes high 
+40	0.08153	church book books god life world christian history religion read sunday american religious man reading christ bible christmas poetry story 
+41	0.08017	state vote campaign election president party senate democratic north political republican bill house candidates candidate carolina democrats voters county votes 
+42	0.05517	career business company job services information jobs insurance carolina sales companies management financial work program hanes resume fair computer hall 
+43	0.06974	shirts franklin suits shop group reg phone sale sport hill special chapel wool cut cotton coats price wear open white 
+44	0.05932	people university unc students black ing student members staff center community writer tion group campus women committee page it’s chapel 
+45	0.01691	pkg a&p fresh beef prices page soap food coupon cans ann lbs bag limit price red sliced save parker meat 
+46	0.10688	university night meeting o'clock president club hall student committee members graham memorial students carolina tonight today held yesterday program page 
+47	0.05656	call sale good condition stereo p.m car price hill chapel excellent durham radio wanted reg miles service system prices contact 
+48	0.02881	call needed chapel work hill experience wanted day hours time care unc today days apply required flexible free student part-time 
+49	0.05451	police reports state chapel hill p.m time arrested a.m reported university editor car county officers man charged students street orange 
+
+<450> LL/token: -10.28889
+[beta: 0.00591] 
+<460> LL/token: -10.28832
+<470> LL/token: -10.28776
+[beta: 0.00591] 
+<480> LL/token: -10.28743
+<490> LL/token: -10.28703
+
+0	0.10792	chapel town hill council county board carrboro parking area orange residents university water housing public street plan staff building people 
+1	0.03869	baseball runs tar carolina run tennis hits inning hit field singles april game heels home doubles win base innings match 
+2	0.08288	student students campus president body board candidates congress government elections committee vote election class university members senior year council candidate 
+3	0.08622	u.s united states war president government soviet american military washington peace press world monday officials south tuesday troops state foreign 
+4	0.09256	university state students unc budget increase year percent tuition money board student schools system carolina page n.c north school education 
+5	0.11627	lor ill men tor lie tin iii end ihe tho arc lit tie ion mil tar ami hut til man 
+6	0.02231	bill page student staff daily manager continued class business office bob campus news editor carolina sports orch miss advertising college 
+7	0.04854	team carolina tar meet game duke coach year state phi men page season teams time continued sigma varsity afternoon points 
+8	0.07557	it’s editor people unc contact ing don’t page time center we’re carolina reached hill community writer lot i’m event free 
+9	0.2728	time back day night man good room home people long years left made thing make place days things life it's 
+10	0.07704	film movie story show films play comedy movies love life characters man star shows world production character audience role director 
+11	0.05156	crossword daily abbr river part puzzle reserved time tribune rights city work free answer media bird services kind yesterday's previous 
+12	0.07267	pizza chicken salad dinner franklin cheese lunch food restaurant chapel fresh hill served hot bar beef bread street eat beer 
+13	0.07473	student students university committee campus unc staff board year carolina president members black faculty writer chapel hill service residence system 
+14	0.10471	p.m union carolina hall student meeting campus meet students unc club interested information a.m room call office wednesday thursday held 
+15	0.01751	university hill durham night president manager chapel line goods raleigh students call shoes drivers college north team prices store good 
+16	0.12348	chapel hill free franklin service store coupon student center stores offer call street price students card prices open purchase mall 
+17	0.16659	students school university program college education student unc work graduate department faculty professor summer class year study research courses schools 
+18	0.08697	phi delta kappa sigma alpha john fraternity chi miss william james robert hill mary house beta sorority charlotte charles smith 
+19	0.11378	it's don't people love i'm unc good day time we're that's you're lot year make can't dth didn't there's happy 
+20	0.07733	p.m art music carolina call saturday hall friday theatre sunday tickets hill union concert information play show memorial chapel arts 
+21	0.06311	student ing university tion students north unc carolina con state hill committee president p.m chapel year campus college chairman party 
+22	0.05525	game yards carolina tar football state heels line pass play ball back field team end season defense quarterback yard week 
+23	0.05345	unc tar carolina team heels state game acc points season duke win north coach year tournament virginia n.c smith play 
+24	0.04464	war navy army carolina page men air training students military naval service ing bill time college heel tar today campus 
+25	0.1957	editor people tar daily students student heel time university make world fact freedom american editorial letters news good life years 
+26	0.04563	call campus summer room rent month needed utilities free sale bedroom apartment roommate furnished great share wanted female house pool 
+27	0.02036	editor manager advertising editorial assistant jennifer david business amy production laura sports john university senior copy elizabeth features scott classified 
+28	0.03582	carolina tar team duke heels state meet game coach points time season phi bob conference heel record chi year sig 
+29	0.04449	music band album songs rock song sound bands guitar show record cradle good records musical pop jazz local chapel group 
+30	0.03007	editor students it’s dth editorial people don’t unc board ing letters time make campus tar university student heel phone daily 
+31	0.03408	unc tar heels game team north acc season carolina win points play coach time sports state half senior it’s unc’s 
+32	0.06482	health medical women care drug research hospital cancer disease study people aids patients abortion blood treatment medicine control drugs doctors 
+33	0.06618	court law case honor trial judge attorney supreme cases guilty justice legal decision jury code death charges federal system prison 
+34	0.0559	student editor ing daily bill carolina campus heel tar manager staff students time university good tion year man hill news 
+35	0.02074	tar heel student tha daily a.m classes business carolina p.m n.c day chapel insertion jan dec fee summer union north 
+36	0.03301	tne ana staff ine art mgr hist ior nave phil thp chem xne french nas jack daily tnat win board 
+37	0.10557	university carolina men year state college north work chapel ing hill school students made man class tar heel time student 
+38	0.02615	carolina game ball line team yards score virginia yard left end time made field play played half goal good makes 
+39	0.10478	team year coach season sports football basketball players games game play teams years athletic school national player college athletes high 
+40	0.08094	church book books god life world christian history religion sunday read american religious reading man christ christmas bible poetry story 
+41	0.07975	state vote campaign election party senate president democratic north political republican bill candidates house candidate carolina democrats voters votes county 
+42	0.05514	career business company job services information jobs carolina insurance companies sales financial management program work hanes computer resume fair hall 
+43	0.06947	shirts franklin suits shop group reg phone sale sport hill cut chapel special wool cotton price wear coats stock open 
+44	0.05936	people university students unc black ing student members staff center community writer group tion campus women committee page it’s chapel 
+45	0.01616	pkg a&p fresh beef prices soap food page cans coupon ann lbs bag limit price sliced red pork save effective 
+46	0.10705	university night meeting o'clock president hall club student committee graham members memorial students carolina tonight held today yesterday program page 
+47	0.05557	call sale good condition stereo p.m car price hill chapel excellent durham radio wanted service reg miles system franklin prices 
+48	0.02852	call needed chapel work hill experience wanted day hours time care unc today days apply required flexible free student part-time 
+49	0.05453	police reports state chapel hill p.m time arrested a.m reported university car editor county officers charged man street students hall 
+
+[beta: 0.00591] 
+<500> LL/token: -10.286
+<510> LL/token: -10.28564
+[beta: 0.00591] 
+<520> LL/token: -10.2849
+<530> LL/token: -10.2847
+[beta: 0.0059] 
+<540> LL/token: -10.28458
+
+0	0.10748	chapel town hill council county board carrboro parking area orange university residents housing water public street plan building staff road 
+1	0.0384	baseball runs tar carolina run hits tennis inning hit field singles heels april game home win doubles base innings single 
+2	0.08363	student students campus president body board candidates congress government committee elections vote university election class members council senior year candidate 
+3	0.08535	u.s united states war president government soviet american military washington peace press world monday officials tuesday south troops foreign state 
+4	0.09317	state university students unc budget increase percent year tuition money student board system schools north page carolina n.c school education 
+5	0.11817	lor ill men tor tin lie iii end ihe arc tho lit tie tar ion mil ami hut til tha 
+6	0.02226	bill page student staff daily manager continued class business office bob campus news editor carolina sports orch advertising miss union 
+7	0.04716	team carolina tar meet game duke coach year state men phi page teams season time continued sigma varsity afternoon points 
+8	0.07543	it’s editor people unc contact ing don’t page center time we’re carolina reached hill community writer staff lot i’m chapel 
+9	0.27835	time back day night man good people home room long years make thing left place made it's life things days 
+10	0.07498	film movie story show films play comedy movies love life characters star man world shows audience character news director production 
+11	0.05027	crossword daily abbr river part puzzle reserved rights tribune time city work answer media free services bird kind yesterday's letter 
+12	0.07178	pizza chicken salad dinner franklin cheese food lunch restaurant chapel fresh hill served beef hot bread bar street eat beer 
+13	0.07342	student students university committee campus staff unc board year carolina president members black chapel faculty writer service residence hill system 
+14	0.10503	p.m union carolina hall student meeting campus meet students unc club interested information a.m room call office wednesday thursday held 
+15	0.01724	university hill durham night president manager chapel line goods raleigh students call shoes drivers north college team prices store good 
+16	0.12374	chapel hill free franklin service coupon store student center stores offer call street price students card prices open mall purchase 
+17	0.16671	students school university program college education student unc graduate work department faculty professor summer year class study research courses schools 
+18	0.08577	phi delta kappa fraternity alpha sigma john chi miss james william robert sorority mary beta hill house charlotte charles psi 
+19	0.10873	it's don't people love i'm unc day good we're time that's you're lot year dth make can't didn't there's happy 
+20	0.0771	p.m art music carolina call saturday hall friday theatre sunday tickets hill union concert play information show memorial arts chapel 
+21	0.06118	student ing tion university students unc north con carolina hill state p.m president committee chapel year campus college party chairman 
+22	0.05485	game yards carolina tar football state heels line pass play ball back team field end season defense quarterback yard duke 
+23	0.05277	unc tar carolina team heels state game acc points season duke win north coach year tournament virginia smith n.c play 
+24	0.04476	war navy army carolina page men air training military students naval service bill ing tar college campus heel today time 
+25	0.19466	editor people daily tar student students heel time make university world fact freedom editorial american letters news good life system 
+26	0.04505	call campus summer room rent month needed utilities free sale bedroom apartment roommate furnished great share wanted female house pool 
+27	0.02038	editor manager advertising editorial assistant jennifer david business amy production laura university john sports senior elizabeth copy features classified scott 
+28	0.03529	carolina tar team duke heels state meet game coach points season time phi bob conference heel record win chi sig 
+29	0.04366	music band album songs rock song sound bands guitar show record cradle records good musical pop jazz local love group 
+30	0.02893	editor students dth it’s editorial people don’t board unc ing letters time make tar campus university heel student phone number 
+31	0.034	unc tar heels game team north acc season carolina win points play coach time sports state half senior it’s ball 
+32	0.06455	health medical women care drug research hospital cancer people disease patients aids study abortion blood treatment medicine drugs control doctors 
+33	0.0657	court law case honor trial judge attorney supreme cases justice guilty legal decision jury code death charges federal prison system 
+34	0.05287	student editor ing daily bill carolina campus heel tar manager staff students university time tion good year man business hill 
+35	0.02084	tar heel student tha daily a.m classes carolina business chapel day n.c p.m insertion jan fee union dec north summer 
+36	0.03227	tne ana staff ine art ior hist nave mgr phil thp xne chem nas daily tnat french jack win uie 
+37	0.10504	university carolina men year state college north work chapel ing hill school made students man class tar heel time student 
+38	0.02551	carolina game ball line team yards score virginia yard left end made time field play played half good goal makes 
+39	0.10511	team year season coach sports football players basketball games game play teams years athletic school national player college athletes high 
+40	0.08009	church book books god life christian world history sunday religion read religious american christ reading man christmas bible poetry story 
+41	0.07949	state vote campaign election party senate president democratic north political republican bill candidates candidate house carolina democrats voters votes county 
+42	0.05467	career business company job services information jobs carolina insurance companies sales management financial work program computer hanes resume fair hall 
+43	0.06942	shirts franklin suits shop group reg sale phone sport chapel special hill cut wool cotton price coats wear daily open 
+44	0.05945	people university students unc black ing student staff members center community writer group tion campus women committee chapel page it’s 
+45	0.01517	pkg a&p fresh beef prices soap page cans ann food coupon lbs bag limit parker price sliced pork red effective 
+46	0.10637	university night meeting o'clock president hall club student committee members graham memorial students carolina tonight held today yesterday program page 
+47	0.05473	call sale good condition stereo p.m car price hill excellent chapel wanted radio durham miles reg service system contact tires 
+48	0.02831	call needed chapel work hill experience wanted day hours time care unc today days apply required flexible student free part-time 
+49	0.05437	police reports state chapel hill p.m arrested time a.m reported university editor car county officers charged man students street orange 
+
+<550> LL/token: -10.28387
+[beta: 0.0059] 
+<560> LL/token: -10.28368
+<570> LL/token: -10.28293
+[beta: 0.0059] 
+<580> LL/token: -10.28285
+<590> LL/token: -10.28223
+
+0	0.10753	chapel town hill council county board carrboro parking area orange university residents water housing public street plan building staff road 
+1	0.038	baseball tar runs carolina run tennis hits inning hit field singles april heels game win home doubles base innings match 
+2	0.08395	student students campus president body board candidates congress government committee elections university vote members class election council senior year candidate 
+3	0.08502	u.s united states war president government soviet military american washington peace press world monday tuesday officials south troops state foreign 
+4	0.09359	state university students unc budget increase year percent tuition money student board system north schools page carolina education school n.c 
+5	0.11936	lor ill men tor tin lie iii end tho ihe arc tar lit tie mil ion ami hut til man 
+6	0.02221	bill page student staff daily manager continued class business office bob campus news carolina editor sports orch advertising miss students 
+7	0.04632	team carolina tar meet game duke coach year state men phi season page teams time continued sigma varsity afternoon points 
+8	0.07527	it’s editor unc people contact ing don’t page time center we’re carolina community reached writer staff hill lot i’m event 
+9	0.28148	time back day man night good people home room long years make thing it's left life made things place don't 
+10	0.07393	film movie story show films play comedy movies love life characters world star man shows character audience news director role 
+11	0.04995	crossword daily abbr river part puzzle reserved rights tribune time city work answer media free bird services yesterday's kind letter 
+12	0.07097	pizza chicken salad dinner franklin cheese food lunch restaurant fresh chapel served hill hot beef bread bar street eat beer 
+13	0.07285	student students university committee campus staff unc board year carolina president black members chapel faculty writer service hill residence system 
+14	0.1052	p.m union carolina hall student meeting campus meet students unc club interested information a.m room call office wednesday thursday held 
+15	0.0172	university hill durham night president manager chapel line raleigh goods students call shoes drivers north college team store prices good 
+16	0.12325	chapel hill free franklin service coupon store center offer student stores street call price students card open prices purchase mall 
+17	0.16613	students school university program college education student unc graduate work department faculty professor summer year class study research courses schools 
+18	0.08514	phi delta fraternity kappa alpha sigma chi john miss william james sorority house robert beta hill mary charlotte charles psi 
+19	0.1054	it's don't people love i'm unc day good we're time that's you're lot year dth can't make happy didn't there's 
+20	0.07732	p.m art music call carolina saturday hall friday theatre sunday tickets hill union concert play show information memorial arts chapel 
+21	0.06009	student ing tion unc north university students con carolina hill p.m state committee president chapel year campus college stu day 
+22	0.0548	game yards carolina tar football state heels line pass play ball team back field end season defense quarterback yard duke 
+23	0.05225	unc tar carolina team heels state game acc points season duke win north coach year tournament virginia smith n.c play 
+24	0.04462	war navy army carolina page men air training students military naval service ing tar bill college heel time campus today 
+25	0.19392	editor people daily tar student students heel time university make world fact freedom american editorial letters good news life system 
+26	0.04492	call campus summer room month rent needed utilities free apartment sale bedroom roommate furnished great share wanted female house pool 
+27	0.02016	editor manager advertising editorial assistant jennifer david business amy production laura john sports university copy elizabeth features senior carolina classified 
+28	0.03491	carolina tar team duke heels state meet game coach points season time phi bob heel conference record win chi sig 
+29	0.04333	music band album songs rock song sound bands guitar record show cradle good records pop musical local jazz love group 
+30	0.02813	editor students dth it’s editorial people don’t board unc ing letters time make tar campus student heel university phone daily 
+31	0.03406	unc tar heels game team north acc season carolina points win play coach time sports state half senior it’s unc’s 
+32	0.06479	health medical women care drug research hospital cancer people disease study patients aids abortion blood treatment medicine control drugs doctors 
+33	0.06536	court law case trial honor judge attorney cases supreme guilty justice legal decision jury death code charges federal system prison 
+34	0.05106	student editor ing daily bill carolina campus heel manager staff tar students time university tion year man good hill business 
+35	0.02101	tar heel student tha daily carolina business day classes a.m chapel n.c insertion p.m union jan fee summer north dec 
+36	0.03187	tne ana staff ine art hist ior mgr nave phil thp chem xne french nas jack tnat daily win uie 
+37	0.10504	university carolina men year college state north work chapel ing hill school students made man class tar time heel student 
+38	0.02517	carolina game ball line team yards score virginia yard left end made field time play played half goal good makes 
+39	0.10501	team year season coach sports football players basketball games game play teams years athletic school national college player athletes high 
+40	0.07991	church book books god life christian world sunday history religion read religious american christ christmas reading man bible poetry story 
+41	0.07957	state vote campaign election party president democratic senate north political republican candidates bill candidate house carolina democrats voters votes county 
+42	0.05429	career business company job services information jobs insurance carolina companies sales management program financial work computer hanes resume fair placement 
+43	0.06961	shirts franklin suits shop group reg phone sale sport hill chapel special cut wool cotton price coats wear open stock 
+44	0.05913	people university unc students black ing student staff members center community writer tion group campus women committee page it’s chapel 
+45	0.01473	pkg a&p fresh beef prices page soap cans ann food coupon lbs bag limit price sliced pork save red meat 
+46	0.10639	university night meeting o'clock hall president club student committee members memorial graham students carolina tonight held today yesterday page program 
+47	0.05436	call sale good condition stereo p.m car price hill excellent wanted chapel radio durham service miles system reg tires white 
+48	0.02854	call needed work chapel hill experience wanted day hours time care unc today days apply required flexible student free part-time 
+49	0.05433	police reports state chapel hill p.m arrested time a.m reported university car editor county officers charged man students street hall 
+
+[beta: 0.00591] 
+<600> LL/token: -10.28224
+<610> LL/token: -10.28166
+[beta: 0.0059] 
+<620> LL/token: -10.28148
+<630> LL/token: -10.28138
+[beta: 0.0059] 
+<640> LL/token: -10.28082
+
+0	0.10735	chapel town hill council county board carrboro parking area orange university residents housing water public street building plan staff road 
+1	0.03772	baseball runs tar carolina run hits tennis inning hit field singles heels april game win home doubles base innings match 
+2	0.08494	student students campus president body board candidates congress government committee university elections vote members class council election year senior candidate 
+3	0.08518	u.s united states war president government soviet military american washington peace press world monday officials tuesday south troops foreign state 
+4	0.09479	state university students unc budget increase year percent tuition money board student system north schools carolina school education n.c page 
+5	0.12042	lor ill men tor tin lie iii end ihe tho arc tar lit tie mil ion ami til tha man 
+6	0.02225	bill page student staff daily manager class continued business office bob campus news editor carolina sports orch advertising editors miss 
+7	0.04582	team carolina tar meet game duke coach year state men phi page teams season time continued varsity afternoon sigma points 
+8	0.07519	it’s editor unc people contact ing don’t page time center we’re community carolina reached writer staff hill lot i’m event 
+9	0.28538	time back day good man night people home room long years make it's thing don't things made place life left 
+10	0.07249	film movie story films show play comedy movies love life characters shows star world man character audience news role times 
+11	0.04942	crossword daily abbr river part puzzle reserved tribune rights time city work media answer free bird services yesterday's kind letter 
+12	0.07004	pizza chicken salad dinner cheese franklin food lunch restaurant fresh chapel served beef hot bread hill bar street eat special 
+13	0.07145	student students university committee campus staff unc board carolina year president black members chapel faculty writer service hill residence system 
+14	0.10483	p.m union carolina hall student meeting campus meet students unc club interested information a.m room call office wednesday thursday held 
+15	0.01719	university hill durham night president manager chapel line raleigh goods students shoes call north college drivers team store work prices 
+16	0.12287	chapel hill free franklin service coupon center store student offer street stores call price card students open prices purchase mall 
+17	0.16633	students school university program college education student unc graduate work faculty department professor summer year class study research courses schools 
+18	0.08398	phi delta fraternity kappa sigma alpha chi john miss william james sorority house robert beta hill mary charlotte psi charles 
+19	0.10041	it's don't people love i'm unc day we're good that's you're time lot year dth make can't didn't there's happy 
+20	0.07738	p.m art music carolina call saturday hall friday theatre sunday tickets hill union play concert information show memorial arts chapel 
+21	0.05899	student ing tion unc university north con carolina students hill p.m state president committee chapel year campus college chairman party 
+22	0.05406	game yards carolina tar football state heels line pass play ball back team field end season defense quarterback yard week 
+23	0.0516	unc tar carolina team heels game state acc points season duke win north coach year tournament virginia smith play n.c 
+24	0.04459	war navy army carolina page men air training military students naval service ing bill tar heel college campus time hill 
+25	0.19237	editor people daily tar student students heel time university make world fact american freedom editorial letters news good years life 
+26	0.04431	call campus room summer month rent utilities needed free apartment bedroom sale roommate furnished great share house wanted female pool 
+27	0.01993	editor manager advertising editorial assistant jennifer david business amy production laura john sports university senior copy elizabeth features carolina classified 
+28	0.03423	carolina tar team duke heels state game meet coach points season time phi bob heel conference record win sig year 
+29	0.04259	music band album songs rock song sound bands guitar show record cradle records good pop musical local jazz love group 
+30	0.02726	editor students dth editorial it’s people don’t board unc ing letters time make tar campus university heel student phone number 
+31	0.03379	unc tar heels game team north acc season carolina win points coach play time sports state half senior it’s year 
+32	0.06471	health medical women care drug research hospital cancer people disease study patients aids abortion blood treatment medicine control drugs doctors 
+33	0.06503	court law case trial honor judge attorney cases supreme guilty legal justice decision jury code death charges federal system prison 
+34	0.04825	student editor ing daily bill carolina campus heel manager staff tar time students university tion year man good hill business 
+35	0.02145	tar heel student tha carolina daily day business chapel n.c classes a.m call union insertion summer office run lost jan 
+36	0.03123	tne ana staff ine art hist ior nave mgr phil thp xne chem nas french tnat win daily jack uie 
+37	0.10469	university carolina men year college state north work chapel ing hill school made students man class tar heel time student 
+38	0.02502	carolina game ball line team yards score virginia yard end left made time play field played half goal good makes 
+39	0.10511	team year season coach sports football players basketball games game play teams years athletic school national college player athletes high 
+40	0.07906	church book books god life christian world sunday history religion religious read american reading christ man christmas bible poetry story 
+41	0.07929	state vote campaign election party democratic president senate north political republican candidates candidate bill house carolina democrats voters votes county 
+42	0.05451	career business company job services information jobs carolina insurance companies sales program computer financial management work hanes resume fair opportunities 
+43	0.06951	shirts franklin suits shop group reg phone sale sport special cut chapel hill wool cotton price coats wear open stock 
+44	0.05879	people university unc students black ing student staff members center community writer tion group campus women committee page it’s chapel 
+45	0.01438	pkg a&p fresh beef prices page soap cans coupon ann food lbs bag limit price sliced red save pork low 
+46	0.10636	university night meeting o'clock president hall club student committee graham members memorial students carolina tonight today held yesterday page program 
+47	0.05341	call sale good condition stereo p.m car price hill excellent chapel durham wanted radio service miles reg tires system sell 
+48	0.0286	call needed work chapel hill experience wanted day hours time care unc today days apply required flexible student part-time free 
+49	0.0545	police reports state chapel hill p.m time arrested a.m reported university car editor county officers man charged students street orange 
+
+<650> LL/token: -10.28019
+[beta: 0.00591] 
+<660> LL/token: -10.2804
+<670> LL/token: -10.27971
+[beta: 0.0059] 
+<680> LL/token: -10.27951
+<690> LL/token: -10.27937
+
+0	0.10739	chapel town hill council county board carrboro parking area orange university residents housing water public street building plan staff road 
+1	0.03761	baseball runs tar carolina run hits tennis inning hit field singles heels april game home win doubles base innings match 
+2	0.08557	student students campus president body board candidates congress government committee university elections members vote council class year election senior candidate 
+3	0.08487	u.s united states president war government soviet american military washington peace press world monday officials tuesday south state troops foreign 
+4	0.0953	state university students unc budget increase year percent money tuition board student system north schools carolina education n.c page school 
+5	0.12114	lor ill tor men tin lie iii end arc tho ihe tar lit tie mil ion ami hut tha man 
+6	0.02229	bill page staff daily student manager continued class business office bob campus editor news carolina sports orch advertising editors miss 
+7	0.04538	team carolina tar meet game duke coach year state men phi season page teams time continued varsity sigma afternoon points 
+8	0.07529	it’s editor unc people ing contact page don’t center time we’re community carolina writer reached staff hill lot i’m event 
+9	0.28752	time back day good man night people home long it's room years make thing don't things made life place left 
+10	0.07142	film movie story films show play comedy movies love life characters star shows man world character news audience director times 
+11	0.04918	crossword daily abbr river part puzzle reserved city time tribune rights work answer free media bird services yesterday's letter kind 
+12	0.06945	pizza chicken salad dinner cheese franklin food lunch restaurant fresh served chapel beef bread hot bar hill eat beer street 
+13	0.07037	student students university committee campus unc staff board year carolina president black members chapel faculty writer service hill residence system 
+14	0.105	p.m union carolina hall student meeting campus students meet unc club information interested room call a.m office wednesday held thursday 
+15	0.01727	university hill durham night president manager chapel line raleigh goods students call shoes college north drivers team work prices store 
+16	0.12281	chapel hill free franklin coupon service center store street offer student stores call price students card open prices purchase mall 
+17	0.16637	students school university program college education student unc graduate work faculty department professor summer year study class courses schools research 
+18	0.08331	phi delta fraternity kappa alpha sigma chi john miss william james sorority house beta robert hill mary charlotte psi charles 
+19	0.09692	it's don't people love unc i'm we're day good that's you're time lot year dth can't make didn't there's class 
+20	0.07741	p.m art music carolina call saturday hall friday theatre sunday tickets hill union concert play show information memorial arts chapel 
+21	0.05865	student ing tion unc north university carolina con students hill p.m state chapel president committee year campus college party day 
+22	0.05364	game yards carolina tar football state heels line pass play back ball field team end season defense quarterback yard duke 
+23	0.05136	unc tar carolina heels team game state acc points season duke win north coach year tournament virginia n.c smith play 
+24	0.0444	war navy army carolina page men air training military students naval service ing tar bill heel college time campus today 
+25	0.19185	editor people daily tar student students heel time university make world fact american editorial freedom good letters news life years 
+26	0.04387	call campus room summer month rent utilities needed free apartment bedroom sale roommate furnished great share house female wanted pool 
+27	0.01991	editor manager advertising editorial assistant jennifer david business amy production laura university john sports senior copy elizabeth features classified scott 
+28	0.03409	carolina tar team duke heels state meet game coach points season time bob phi heel conference win record sig year 
+29	0.04227	music band album songs rock song sound bands guitar show record cradle records pop good local musical love jazz group 
+30	0.02682	editor students dth editorial it’s people don’t unc board ing letters time tar make heel campus university phone student number 
+31	0.03364	unc tar heels game team north acc season carolina points win play coach time sports state half senior it’s year 
+32	0.06455	health medical women care drug research hospital cancer people disease study patients aids abortion blood treatment medicine control drugs doctors 
+33	0.06502	court law case trial judge honor attorney cases supreme guilty justice legal jury decision charges death code federal system prison 
+34	0.04676	student editor ing daily bill carolina campus heel manager staff tar students university tion time year man hill business good 
+35	0.02171	tar heel tha student day business carolina daily call chapel n.c classes lost union insertion office summer run a.m wanted 
+36	0.03096	tne ana staff ine art hist ior phil nave thp mgr chem xne nas french tnat win daily uie engl 
+37	0.10429	university carolina men year state college north work chapel ing hill school made students man class tar heel time student 
+38	0.02483	carolina game ball line team yards score virginia yard left end made field time play played half goal good makes 
+39	0.10535	team year season coach sports football players basketball games game play teams years athletic school national college player athletes high 
+40	0.07878	church book books god life christian world sunday history religion religious read american christ christmas reading man bible poetry story 
+41	0.07905	state vote campaign election party democratic president senate north political republican candidates candidate bill house votes carolina democrats voters county 
+42	0.05465	career business company job services information jobs carolina insurance companies program sales computer financial management work resume hanes fair placement 
+43	0.06919	shirts franklin suits shop group reg sale phone sport special hill cut wool chapel cotton price coats open wear shoes 
+44	0.05852	people university unc students black ing student staff members center community writer tion group campus women committee it’s page hill 
+45	0.01406	pkg a&p fresh beef prices soap ann cans page coupon food lbs bag limit sliced price pork parker save red 
+46	0.10648	university night meeting o'clock hall president club student committee graham members memorial students carolina tonight today held yesterday page program 
+47	0.05321	call sale good condition stereo p.m car price excellent hill chapel wanted durham radio service miles system tires reg sell 
+48	0.0286	call needed work chapel hill experience wanted day hours time care unc days today apply required flexible student part-time free 
+49	0.05433	police reports state chapel hill p.m time arrested a.m university reported car county editor officers man charged students street fire 
+
+[beta: 0.00591] 
+<700> LL/token: -10.27896
+<710> LL/token: -10.27879
+[beta: 0.0059] 
+<720> LL/token: -10.27848
+<730> LL/token: -10.27811
+[beta: 0.0059] 
+<740> LL/token: -10.27785
+
+0	0.10726	chapel town hill council county board carrboro parking area orange university residents housing water public plan building street staff road 
+1	0.03759	baseball runs tar carolina run tennis hits inning hit field singles heels april game home win doubles base innings match 
+2	0.08627	student students campus president body board candidates congress government committee university elections members council vote year class senior election stu 
+3	0.08461	u.s united states president war government soviet military american washington peace press world monday officials tuesday south troops foreign state 
+4	0.09628	state university students unc budget increase year percent tuition money board student system north carolina education schools n.c faculty page 
+5	0.12204	lor ill tor men lie tin iii end tar tho ihe arc tie lit mil ion tha ami hut til 
+6	0.02232	bill page student staff daily manager continued class business office bob editor campus news carolina sports advertising orch editorial editors 
+7	0.04496	team carolina tar meet game duke coach year state men phi page season teams time continued varsity afternoon sigma points 
+8	0.07484	it’s editor unc people ing contact page don’t time center we’re community carolina reached staff writer hill lot i’m chapel 
+9	0.29108	time back day good man night people it's long home years make room don't thing things life place made left 
+10	0.07055	film movie story films show comedy play movies love life characters star shows world man character news audience director times 
+11	0.04891	crossword daily abbr river part puzzle reserved tribune time rights city work free media answer bird services yesterday's kind previous 
+12	0.06895	pizza chicken salad dinner cheese franklin food lunch restaurant fresh served chapel beef hot bread bar hill eat beer street 
+13	0.0686	student students university committee campus unc staff board year carolina president black members chapel faculty writer hill service people residence 
+14	0.10516	p.m union carolina hall student meeting campus meet students unc club interested information room a.m call office wednesday held thursday 
+15	0.01735	university hill durham night president manager chapel line raleigh students goods college call shoes north drivers team work good prices 
+16	0.12245	chapel hill free franklin coupon service center store street student offer stores call price card students open purchase mall prices 
+17	0.16668	students school university program college education student unc graduate work department faculty professor summer year study class research courses schools 
+18	0.0827	phi fraternity delta kappa alpha sigma chi john miss james william sorority house beta robert hill mary psi charlotte charles 
+19	0.09191	it's don't people love unc i'm we're day that's good you're time lot year dth make can't didn't class writer 
+20	0.07728	p.m art music carolina call saturday hall friday theatre sunday tickets hill play union concert show information memorial arts chapel 
+21	0.05769	student ing tion unc north con university carolina hill students p.m state committee president chapel year campus college day party 
+22	0.05347	game yards carolina tar football state heels line pass play back ball team field end season defense quarterback yard week 
+23	0.05111	unc tar carolina heels team game state acc points season duke north win coach year virginia tournament smith n.c play 
+24	0.04412	war navy army carolina page men air training military students naval service ing bill tar heel campus college time hill 
+25	0.19073	editor people daily tar student heel students time university make world fact american editorial freedom good news letters campus life 
+26	0.04327	call campus room summer month rent utilities needed free apartment bedroom roommate sale furnished great share house female pool wanted 
+27	0.01985	editor manager advertising editorial assistant jennifer david business amy production john laura university sports senior elizabeth copy features carolina classified 
+28	0.03391	carolina tar team duke heels state meet game coach points season time phi bob conference heel win record sig chi 
+29	0.04177	music band album songs rock song sound bands guitar show record cradle records good pop musical local love jazz lyrics 
+30	0.0263	editor students dth editorial it’s people don’t board unc ing letters time tar make campus university heel daily phone student 
+31	0.03352	unc tar heels game team north acc season carolina points win coach play time sports state half it’s senior unc’s 
+32	0.06427	health medical women care drug research hospital cancer people disease study patients aids abortion blood treatment medicine control drugs doctors 
+33	0.06448	court law case trial judge honor attorney cases supreme guilty justice legal decision jury charges death code federal prison hearing 
+34	0.0446	student editor ing daily bill carolina campus staff heel manager tar students university tion time year man party business hill 
+35	0.0225	tar call day heel student tha business carolina chapel lost daily n.c found wanted union office dth run insertion summer 
+36	0.03059	tne ana staff ine art hist ior nave phil thp chem xne mgr tnat nas french win daily engl uie 
+37	0.10378	university carolina men year state college north work chapel ing hill school made man students tar class heel time student 
+38	0.02502	carolina game ball line team yards score virginia yard left end made time field play played half goal good makes 
+39	0.10551	team year season coach sports football basketball players games game play teams years athletic school national college player athletes high 
+40	0.07821	church book books god life christian world sunday history religion christmas religious read christ american reading bible man poetry story 
+41	0.07844	state vote campaign election party democratic president senate political north republican candidates candidate bill house votes voters democrats carolina county 
+42	0.0544	career business company job services information jobs insurance carolina computer companies program sales management financial work hanes resume fair placement 
+43	0.06888	shirts franklin suits shop group reg sale phone sport cut hill special chapel wool price cotton coats wear open white 
+44	0.05783	people unc university students black ing student staff members center community writer tion group women campus page it’s chapel committee 
+45	0.0138	pkg a&p fresh beef prices page soap cans ann coupon food lbs bag limit price sliced save pork red super-right 
+46	0.10653	university night meeting o'clock hall president club student committee graham members memorial students carolina tonight today held yesterday page program 
+47	0.05267	call sale good condition stereo p.m car price hill excellent chapel radio durham wanted miles service tires reg system phone 
+48	0.02871	call needed work chapel hill experience wanted day hours time care unc days apply today required flexible student part-time free 
+49	0.0543	police reports state chapel hill p.m arrested time a.m university reported car county editor officers students man charged street fire 
+
+<750> LL/token: -10.27742
+[beta: 0.0059] 
+<760> LL/token: -10.2774
+<770> LL/token: -10.27721
+[beta: 0.0059] 
+<780> LL/token: -10.27676
+<790> LL/token: -10.27674
+
+0	0.10695	chapel town hill council county board carrboro parking university area orange residents housing water public building plan street staff students 
+1	0.03759	baseball runs tar carolina run hits tennis inning hit field singles april heels game home win doubles base innings single 
+2	0.08679	student students campus president body board candidates government congress committee university council members elections vote year class senior election stu 
+3	0.08475	u.s united states president war government soviet american military washington peace press world monday tuesday officials south state troops national 
+4	0.09681	state university students budget unc increase percent year money tuition board student system north carolina education schools faculty n.c committee 
+5	0.12278	lor ill tor men lie tin iii end tar tho ihe arc tie lit tha mil ion ami til man 
+6	0.02248	bill page daily staff student manager continued business class bob campus office editor news carolina sports advertising orch union jack 
+7	0.04473	team carolina tar meet game duke coach state year men season page phi time teams continued afternoon varsity points sigma 
+8	0.07471	it’s unc editor people ing contact page don’t center time we’re community carolina writer staff reached hill lot i’m event 
+9	0.29315	time back day good man people night it's don't make home long years thing room things life made left big 
+10	0.06989	film movie story films show comedy movies play love life characters shows star world man character news audience times director 
+11	0.04895	crossword daily abbr river part puzzle reserved time tribune rights city work free media answer services bird kind yesterday's letter 
+12	0.06854	pizza chicken salad dinner cheese food franklin lunch restaurant fresh served beef bread hot chapel bar eat hill beer street 
+13	0.06787	student students university committee campus unc staff board carolina year president black members chapel faculty writer hill service people north 
+14	0.10528	p.m union hall carolina student meeting campus students meet unc a.m club room interested information call office wednesday held thursday 
+15	0.01735	university hill durham night president chapel manager line raleigh students goods college shoes call north drivers team work good store 
+16	0.12246	chapel hill free franklin coupon service center street student store offer call stores price card open mall students purchase daily 
+17	0.16669	students school university program college education student graduate unc work faculty department summer professor year study class courses classes research 
+18	0.08195	phi delta fraternity kappa alpha sigma chi john miss william james sorority house beta robert mary hill psi charlotte charles 
+19	0.08847	it's people don't unc love i'm we're day that's good you're time lot year dth writer can't make class didn't 
+20	0.07722	p.m art music carolina call saturday hall friday theatre sunday tickets hill play union concert show information memorial arts chapel 
+21	0.05744	student ing tion unc north con university carolina hill students p.m state chapel president committee year campus college party day 
+22	0.05321	game yards carolina tar football state heels line pass play back ball team field end season defense quarterback yard duke 
+23	0.05092	unc tar carolina heels team game state acc points season duke north win coach year tournament virginia smith n.c play 
+24	0.04391	war navy army carolina page men air training military students naval service ing heel bill tar campus college today time 
+25	0.18969	editor people daily tar student heel students time university make world fact american editorial freedom good letters news campus life 
+26	0.04309	call campus room summer month rent utilities needed free apartment bedroom roommate furnished sale great house share pool female wanted 
+27	0.01978	editor manager advertising editorial assistant jennifer david business amy production john laura sports university elizabeth copy senior features classified carolina 
+28	0.03364	carolina tar team duke heels state game meet coach points season time phi bob heel conference win sig chi record 
+29	0.04142	music band album songs rock song sound bands guitar show record cradle local records pop good musical love jazz group 
+30	0.02614	editor students dth editorial it’s people don’t unc board ing letters time tar make heel university campus phone daily student 
+31	0.0334	unc tar heels game team north acc season carolina points win play coach time sports state half it’s senior unc’s 
+32	0.06443	health medical women care drug research hospital people cancer disease study patients aids abortion blood treatment medicine control drugs doctors 
+33	0.06439	court law case trial judge honor attorney cases supreme guilty justice decision legal jury charges death code federal system prison 
+34	0.04292	student editor ing bill daily carolina campus staff manager heel tar tion university students man year business hill time party 
+35	0.02273	call tar day heel lost student business carolina found tha chapel wanted love daily dth happy office n.c union run 
+36	0.03035	tne ana staff ine art hist ior nave phil thp chem xne nas tnat win french engl uie daily intro 
+37	0.10322	university carolina men year state college north work ing chapel hill school made man students tar class heel time tion 
+38	0.02486	carolina game ball line team yards score virginia yard left end made time field play played half goal good makes 
+39	0.10547	team year season coach sports football basketball players games game play teams years athletic school national college player athletes high 
+40	0.07791	church book books god life christian sunday world history christmas religion religious christ read american reading man bible poetry story 
+41	0.07825	state vote campaign election party democratic president north senate political republican candidates candidate bill house votes voters democrats carolina elections 
+42	0.05473	career business company job services information jobs insurance computer carolina program companies sales management financial work hanes resume fair opportunities 
+43	0.06869	shirts franklin suits group shop reg sale phone sport special hill chapel cut wool price cotton coats open wear stock 
+44	0.05733	people unc university students black ing student staff members center community tion writer group women campus it’s committee page chapel 
+45	0.01346	pkg a&p fresh beef prices page soap cans ann coupon food lbs bag limit sliced pork save price super-right red 
+46	0.10613	university night meeting o'clock president hall club student committee graham members memorial students carolina tonight held today yesterday page program 
+47	0.0527	call sale condition good stereo p.m car price hill excellent durham wanted chapel radio miles service system tires reg sell 
+48	0.02881	call needed work chapel hill experience wanted day hours time care unc apply days today required flexible student part-time free 
+49	0.05407	police reports state chapel hill p.m time arrested a.m university reported car editor county students officers man charged street hall 
+
+[beta: 0.0059] 
+<800> LL/token: -10.27612
+<810> LL/token: -10.27596
+[beta: 0.0059] 
+<820> LL/token: -10.2756
+<830> LL/token: -10.2754
+[beta: 0.0059] 
+<840> LL/token: -10.27491
+
+0	0.10685	chapel town hill council county board carrboro university parking area orange residents housing water public building plan street staff students 
+1	0.03756	baseball runs tar carolina run hits tennis inning hit field singles game april heels home win doubles base innings single 
+2	0.08797	student students campus president body board candidates committee university government congress council members elections vote year class election senior stu 
+3	0.08477	u.s united states president war government soviet american military washington peace press world monday tuesday south officials troops foreign national 
+4	0.09784	state university students budget unc increase year money percent tuition board student system north carolina education schools faculty n.c million 
+5	0.12349	lor ill tor men tin iii lie end tar ihe tho arc tha lit tie ion mil ami til man 
+6	0.02275	bill page staff daily student manager class business continued office bob campus editor news carolina sports advertising jack orch editors 
+7	0.04444	team carolina tar meet game duke coach state year men phi page teams season time continued varsity afternoon points heels 
+8	0.07435	it’s unc editor people ing contact page don’t time center we’re community carolina writer staff reached hill lot school event 
+9	0.29655	time back day good man people night it's don't make years home long thing things room life made place big 
+10	0.06909	film movie story films show comedy movies play love life characters shows star world man character news director times audience 
+11	0.04881	crossword daily abbr river part puzzle reserved time tribune rights work city free answer media services bird yesterday's kind letter 
+12	0.06827	pizza chicken salad dinner cheese food franklin lunch restaurant fresh served beef bread hot chapel bar eat beer special street 
+13	0.06694	student students university committee campus staff unc board carolina year black president members chapel hill writer faculty service people north 
+14	0.10552	p.m union hall carolina student meeting campus students meet a.m unc room club interested information call office wednesday thursday held 
+15	0.01748	university hill durham night president chapel manager line students raleigh goods college north shoes call team drivers work store club 
+16	0.12283	chapel hill free franklin coupon center street service store call offer student stores price open card mall prices purchase students 
+17	0.16639	students school university program college education student graduate unc work faculty department summer professor year study classes class courses research 
+18	0.08139	phi fraternity delta kappa alpha sigma chi john miss james william sorority house beta hill robert mary psi charlotte charles 
+19	0.08304	it's people don't unc i'm love we're that's lot day good time you're writer year dth ing class can't make 
+20	0.07736	p.m art music carolina call saturday hall friday theatre sunday tickets hill play union concert show information memorial chapel arts 
+21	0.05691	student ing tion unc con north carolina university hill state p.m students chapel president committee year college stu day party 
+22	0.05297	game yards carolina tar football state heels line pass play back ball team field end season defense quarterback yard duke 
+23	0.05033	unc tar carolina heels team game state acc points season duke north win coach year virginia tournament smith n.c play 
+24	0.04379	war navy army carolina page men air training military students naval ing service tar heel bill campus college time office 
+25	0.18856	editor people daily tar student heel students time university make world fact editorial american freedom news good letters campus system 
+26	0.04252	call campus room month summer rent utilities free needed apartment bedroom roommate great furnished sale house pool share w/d female 
+27	0.01969	editor advertising manager editorial assistant jennifer david business amy production john laura sports university copy senior elizabeth carolina features classified 
+28	0.03348	carolina tar team duke heels state game meet coach points season time phi bob heel conference win record chi sig 
+29	0.04124	music band album songs rock song sound bands guitar record show cradle records pop local good musical love jazz group 
+30	0.02579	editor students dth editorial it’s people don’t unc board ing letters time tar make heel campus university phone number daily 
+31	0.03322	unc tar heels game team north acc season carolina win points play coach time sports state half it’s senior unc’s 
+32	0.06468	health medical women care drug research people cancer hospital disease study patients aids abortion blood treatment medicine control drugs doctors 
+33	0.06415	court law case trial judge honor attorney cases supreme guilty justice decision legal jury code death charges federal system prison 
+34	0.04069	student editor ing bill daily carolina campus staff manager heel tar students tion university party man time hill business con 
+35	0.02342	call day found love lost tar wanted happy business dth carolina student heel sale tha chapel union good office run 
+36	0.03033	tne ana staff ine art hist ior nave phil chem thp xne nas tnat win uie engl french econ mwf 
+37	0.10296	university carolina men year state college north work ing chapel hill school man made students tar class heel time tion 
+38	0.02485	carolina game ball line team yards score virginia yard left end made time field play played half goal good makes 
+39	0.10572	team year season coach sports football basketball players games game teams play years athletic school national college player athletes good 
+40	0.07744	church book books god life christian sunday world christmas history religion religious christ american read bible reading man poetry baptist 
+41	0.07809	state vote campaign election party democratic president political north senate republican candidates candidate bill votes house voters democrats carolina elections 
+42	0.05481	career business company job services information jobs insurance computer program companies carolina sales financial management work hanes resume fair placement 
+43	0.06849	shirts franklin suits group shop reg sale phone sport special hill cut chapel wool price cotton coats wear open white 
+44	0.05652	people unc university students black ing student staff members center community tion writer group women it’s campus page chapel committee 
+45	0.01315	pkg a&p fresh beef prices soap page cans ann coupon food lbs bag limit sliced red effective super-right pork price 
+46	0.10607	university night meeting o'clock hall president club student committee graham members memorial students carolina tonight held today yesterday page program 
+47	0.05293	call sale condition good stereo p.m car price hill excellent chapel wanted durham radio miles service system tires reg sell 
+48	0.0291	call needed work chapel hill experience wanted day hours time care unc apply days today required flexible part-time student person 
+49	0.05432	police reports state chapel hill p.m time arrested university a.m reported car county editor students officers charged man street hall 
+
+<850> LL/token: -10.27494
+[beta: 0.0059] 
+<860> LL/token: -10.2746
+<870> LL/token: -10.27429
+[beta: 0.0059] 
+<880> LL/token: -10.27382
+<890> LL/token: -10.27364
+
+0	0.10678	chapel town hill council county board carrboro parking university area orange residents housing water public building street plan staff students 
+1	0.03736	baseball runs carolina tar run hits tennis inning hit field singles april heels game win home doubles base innings single 
+2	0.08883	student students campus president body board committee university candidates government congress council members year elections vote class senior election stu 
+3	0.08469	u.s united states president war government soviet military american washington peace press world monday officials tuesday south troops state foreign 
+4	0.09817	state university students budget unc increase money year percent tuition student north system board carolina education schools faculty committee million 
+5	0.12416	lor ill tor men tar tin lie iii end tho tha ihe arc lit mil ion tie ami til hut 
+6	0.02314	bill page staff daily student manager class business continued bob office campus editor news carolina sports advertising jack editors orch 
+7	0.04423	team carolina tar meet game duke coach state year men phi season teams page time continued varsity afternoon heels points 
+8	0.07408	it’s unc editor people ing contact page don’t center time we’re writer staff community carolina reached hill group event lot 
+9	0.29928	time day back good it's people man night don't make years long home thing things life room made big place 
+10	0.06899	film movie story films show comedy movies love play life characters star world man shows character news times john director 
+11	0.04879	crossword daily abbr river part puzzle reserved city tribune rights time work free answer media services bird yesterday's previous kind 
+12	0.06772	chicken pizza salad dinner cheese food franklin lunch restaurant fresh served beef bread hot bar chapel eat beer street special 
+13	0.06689	student students university committee campus staff unc board carolina year president black members chapel hill writer faculty service people north 
+14	0.10579	p.m union hall carolina student meeting campus meet a.m students unc room club interested information call office wednesday held thursday 
+15	0.01739	university hill durham night chapel president manager line raleigh students goods college north shoes call team drivers work good club 
+16	0.12331	chapel hill free franklin coupon street center service offer store student call stores price open card students mall daily purchase 
+17	0.16615	students school university program college education student graduate unc work faculty department professor summer year study classes courses research class 
+18	0.08106	phi fraternity delta kappa alpha sigma chi john miss james william sorority house beta robert hill mary psi charlotte fraternities 
+19	0.07938	it's people don't unc i'm we're love that's writer lot ing you're year time dth day reagan good make black 
+20	0.07739	p.m art music carolina call saturday hall theatre friday sunday tickets hill play union concert show information memorial arts chapel 
+21	0.05664	ing student tion unc con north carolina hill university state students p.m chapel president committee college party day year stu 
+22	0.05293	game yards carolina tar football state heels line pass play ball back field team end season defense quarterback yard saturday 
+23	0.05022	unc tar carolina heels team game state acc points duke season north win coach year virginia tournament smith n.c play 
+24	0.04353	war navy army carolina men page air training students military ing naval service tar heel bill campus college hill time 
+25	0.18753	editor people daily tar student heel students time university world make fact editorial american freedom news good letters campus system 
+26	0.04224	call campus month room rent summer utilities free apartment needed great furnished bedroom roommate house w/d pool sale share female 
+27	0.01976	editor manager advertising editorial assistant jennifer david business amy production john laura university sports senior copy elizabeth classified features carolina 
+28	0.03329	carolina tar team duke heels state game meet coach points season time phi bob heel win conference record sig chi 
+29	0.04117	music band album songs rock song sound bands guitar show record cradle records local good pop love musical jazz lyrics 
+30	0.0258	editor students dth editorial it’s people don’t unc board ing letters time tar make campus heel university phone daily number 
+31	0.03343	unc tar heels game team north acc season carolina points win coach play time sports it’s half state senior unc’s 
+32	0.06455	health medical women care drug research hospital cancer people disease study patients aids abortion blood treatment medicine drugs control doctors 
+33	0.06444	court law case trial judge attorney honor supreme cases guilty justice decision legal jury death charges code federal prison hearing 
+34	0.03948	student editor ing bill daily carolina staff campus manager heel tion tar students university party hill man time business con 
+35	0.02366	call love day found lost wanted sale happy needed good tar dth student carolina union typing business office chapel apply 
+36	0.03023	tne ana staff mwf ine art hist ior chem nave thp phil tth xne nas win tnat econ uie engl 
+37	0.10262	university carolina men year state college north ing work chapel hill school made man students tar class heel time tion 
+38	0.02479	carolina game ball line team yards score virginia yard end left made field time play played half goal good makes 
+39	0.10568	team year season coach sports football basketball players games game play teams years athletic school national college player athletes high 
+40	0.07732	church book books god life christian sunday world christmas history religion religious christ american read bible man reading poetry baptist 
+41	0.07771	state vote campaign election party democratic president political senate north republican candidates candidate bill votes voters carolina house democrats elections 
+42	0.05469	career business company job services information computer jobs carolina insurance program companies sales financial management work hanes resume fair hall 
+43	0.06847	shirts franklin suits group reg shop sale phone sport special hill cut chapel wool price cotton coats wear open stock 
+44	0.05631	people unc university students black ing staff student members center community tion writer group women it’s campus page committee school 
+45	0.01295	pkg a&p fresh beef prices page soap cans ann coupon food lbs bag limit sliced save pork super-right jar price 
+46	0.10676	university night meeting o'clock hall president club committee graham student memorial members students carolina tonight held today yesterday page program 
+47	0.05291	call sale condition good stereo p.m car price hill excellent chapel wanted radio durham miles tires service system sell reg 
+48	0.02943	call needed work chapel experience hill wanted day hours time care unc days apply today flexible required part-time student information 
+49	0.05458	police reports state chapel hill p.m arrested time university a.m reported car editor county officers man students charged street fire 
+
+[beta: 0.0059] 
+<900> LL/token: -10.27311
+<910> LL/token: -10.27296
+[beta: 0.0059] 
+<920> LL/token: -10.27218
+<930> LL/token: -10.27194
+[beta: 0.00589] 
+<940> LL/token: -10.2716
+
+0	0.10653	chapel town hill council county board carrboro university parking area orange residents housing water public building plan street staff students 
+1	0.03753	baseball runs tar carolina run hits tennis inning hit field singles april heels game win home doubles base innings match 
+2	0.09013	student students campus president body board university committee government candidates congress council members year elections vote class senior election stu 
+3	0.08488	u.s united states president war government soviet military american washington peace press world monday tuesday officials south troops state foreign 
+4	0.09944	state university students budget increase unc money year percent tuition student system north board carolina education schools faculty million committee 
+5	0.12522	lor ill tor tar men tha end lie tin iii tho ihe arc lit tie mil ion til ami hut 
+6	0.02343	bill page daily staff student manager business class continued bob office editor campus news carolina sports jack advertising orch editorial 
+7	0.04436	team carolina tar meet game duke coach state year men phi season page teams time continued varsity afternoon points heels 
+8	0.07353	it’s unc editor people ing contact page don’t center time we’re staff writer community carolina reached school hill group lot 
+9	0.30253	time day back good it's people don't man night make years thing long home things life room big made place 
+10	0.06849	film movie story films show comedy movies love play life characters shows star world character man news director john times 
+11	0.0487	crossword daily abbr river part puzzle reserved city time tribune rights work free answer services media bird kind yesterday's letter 
+12	0.06728	chicken pizza salad dinner cheese food lunch franklin restaurant fresh served beef bread hot bar eat chapel beer special hill 
+13	0.0659	student students university committee campus unc staff board carolina year black president members chapel hill writer people faculty service north 
+14	0.10589	p.m union hall carolina student meeting campus a.m meet unc students room club information interested call wednesday office thursday held 
+15	0.01765	university hill durham chapel night president manager line raleigh students goods college north shoes call team drivers work club good 
+16	0.12426	chapel hill free franklin coupon street center service offer store student call stores open price card mall students durham purchase 
+17	0.1655	students school university program college education student graduate unc faculty work department summer professor year study classes courses schools class 
+18	0.08112	phi fraternity delta kappa alpha sigma chi john miss sorority james william house beta robert hill mary psi charlotte fraternities 
+19	0.07508	it's people don't unc i'm we're writer love that's lot ing reagan black dth year time class you're tion staff 
+20	0.07727	p.m art music carolina call saturday hall theatre friday sunday tickets play hill union concert show information memorial arts chapel 
+21	0.05644	ing student tion unc con north carolina hill p.m university state students chapel president committee college year party stu pro 
+22	0.05267	game yards carolina tar football state heels line pass play ball back field team end season defense quarterback yard week 
+23	0.04973	unc tar carolina heels team game state acc points season duke north win coach year virginia tournament n.c smith play 
+24	0.04365	war navy army carolina page men air training students military ing naval service heel tar bill campus time college today 
+25	0.18713	editor people daily tar student heel students time university world make fact american editorial freedom good news letters campus life 
+26	0.0412	call campus month room rent summer utilities free apartment furnished w/d house bedroom roommate needed pool great walk share sale 
+27	0.01978	editor advertising manager editorial assistant jennifer david amy business production john laura university sports copy senior elizabeth classified carolina features 
+28	0.03334	carolina tar team duke heels state game meet coach points season time phi bob heel conference win record chi sig 
+29	0.0408	music band album songs rock song sound bands guitar show record cradle local records pop love good musical jazz lyrics 
+30	0.02546	editor students dth editorial it’s people don’t unc board ing letters time tar make campus heel university phone daily student 
+31	0.03342	unc tar heels game team north acc season carolina points win play coach time sports it’s state half senior unc’s 
+32	0.0651	health medical women care drug research hospital people cancer disease study aids patients abortion blood treatment medicine drugs control doctors 
+33	0.06415	court law case trial judge attorney honor supreme cases guilty justice decision jury legal charges death code federal prison hearing 
+34	0.03787	student editor ing bill daily carolina campus staff manager heel tion tar students party man time business university hill con 
+35	0.02335	call love day found lost wanted sale needed happy good dth typing great union share ride tar student apply carolina 
+36	0.03025	tne ana staff mwf ine art hist ior chem nave tth thp phil xne nas econ tnat win uie engl 
+37	0.10256	university carolina men year state college north ing chapel work hill school made man students tar class heel time tion 
+38	0.0247	carolina game ball line team yards score virginia yard left end made field time play played half goal good makes 
+39	0.10587	team year coach season sports football basketball players games game play teams years athletic school national college player good athletes 
+40	0.0771	church book books god life christian sunday world christmas history religion religious christ american bible read man poetry baptist story 
+41	0.07748	state vote campaign election party democratic president political senate republican north candidates candidate votes bill voters democrats elections carolina house 
+42	0.05453	career business company job services information computer jobs insurance program carolina companies sales management financial work hanes resume fair placement 
+43	0.06859	shirts franklin suits group reg shop sale phone sport special cut hill wool chapel price cotton coats open wear daily 
+44	0.05574	people unc university students black ing staff student members center community tion writer group it’s women page campus chapel committee 
+45	0.01282	pkg a&p beef fresh soap prices page ann cans coupon food bag lbs limit price sliced save super-right pork red 
+46	0.10724	university night meeting o'clock hall president club committee student members memorial graham carolina students tonight held today yesterday page hill 
+47	0.05308	call sale condition good stereo p.m car price hill chapel excellent wanted durham radio miles service tires reg system prices 
+48	0.02994	call needed work chapel hill experience wanted day hours time care days unc apply today required flexible part-time student information 
+49	0.05448	police reports state chapel hill p.m time arrested university a.m reported car county students editor officers man charged street fire 
+
+<950> LL/token: -10.27118
+[beta: 0.00589] 
+<960> LL/token: -10.27109
+<970> LL/token: -10.27047
+[beta: 0.00589] 
+<980> LL/token: -10.2704
+<990> LL/token: -10.27004
+
+0	0.10681	chapel town hill council county board carrboro university parking area orange residents housing water public building plan street students staff 
+1	0.03742	baseball runs tar carolina run hits tennis inning hit field singles game april heels win home doubles base innings match 
+2	0.09103	student students campus president body board university committee government candidates congress council members year elections vote class senior election stu 
+3	0.08501	u.s united states president war government soviet american military washington peace press world monday tuesday officials troops south national foreign 
+4	0.10017	state university students budget increase money year unc percent tuition north system board student carolina education faculty schools committee million 
+5	0.12538	lor ill tor tar men tha tin lie end iii tho ihe arc tie lit ion mil til ami tht 
+6	0.0234	bill daily staff page student manager business class campus bob continued office editor news carolina sports jack advertising board editorial 
+7	0.04412	team carolina tar meet game duke coach state year men phi season teams page time continued varsity afternoon heels points 
+8	0.07325	it’s unc editor people ing page contact don’t center we’re staff time writer community carolina reached school group event hill 
+9	0.30444	time day back good it's people don't man night make years thing long home things life room big year made 
+10	0.06837	film movie story films show comedy movies love play characters life star shows world man character news john director times 
+11	0.04884	crossword daily abbr river part puzzle reserved city time rights tribune work free answer media bird services yesterday's letter previous 
+12	0.06676	chicken salad pizza dinner cheese food lunch restaurant franklin fresh served beef bread hot bar eat beer chapel sauce special 
+13	0.0648	student students university committee campus unc staff board carolina year black president members chapel hill writer faculty people service north 
+14	0.10615	p.m union carolina hall student meeting campus a.m meet unc room students club interested information call office wednesday held thursday 
+15	0.01776	university hill durham night chapel president manager line raleigh students goods college north shoes call team work drivers store good 
+16	0.1251	chapel hill free franklin street coupon center service offer store student call stores open price card mall daily durham purchase 
+17	0.16509	students school university program college education student graduate unc work faculty department professor summer year study classes courses class research 
+18	0.08106	phi fraternity delta kappa alpha sigma chi john miss james william sorority house beta robert hill mary psi charlotte fraternities 
+19	0.07228	it's people unc don't we're i'm writer ing black that's lot reagan love dth tion students staff year class percent 
+20	0.07757	p.m art music carolina call saturday hall theatre friday sunday hill play tickets union concert show information memorial arts chapel 
+21	0.05599	ing student tion unc con north carolina hill students state university chapel p.m president college committee party stu year pro 
+22	0.05268	game yards carolina tar football state heels line pass play back ball field team season end defense quarterback yard week 
+23	0.04965	unc tar carolina heels team game state acc points season duke north win coach year virginia tournament smith n.c play 
+24	0.0437	war navy army carolina page men air training students military ing naval tar heel service bill campus hill college office 
+25	0.18666	editor people daily tar student heel students time university world make fact american editorial good freedom news letters campus years 
+26	0.04052	call campus month room rent summer free utilities apartment w/d house furnished bedroom roommate pool needed great walk share busline 
+27	0.01979	editor manager advertising editorial jennifer assistant david amy business production john laura sports university copy senior elizabeth classified features carolina 
+28	0.03347	carolina tar team duke heels state game meet coach points season time phi bob heel conference win record sig chi 
+29	0.0406	music band album songs rock song sound bands guitar show record cradle local records pop good love musical jazz it’s 
+30	0.02527	editor students dth editorial it’s people don’t unc board ing letters tar time make campus heel university student phone daily 
+31	0.03357	unc tar heels game team north acc season carolina win points play coach time sports it’s state half senior unc’s 
+32	0.06518	health medical women care drug research hospital cancer people disease study patients aids abortion blood treatment medicine drugs control center 
+33	0.0644	court law case trial judge attorney honor supreme cases guilty justice decision legal jury death charges code federal prison hearing 
+34	0.03688	student editor ing bill daily carolina campus staff manager heel tion tar party students man hill business university con time 
+35	0.02333	call love found day lost sale wanted needed happy good dth great union share typing ride female apply student carolina 
+36	0.03009	tne ana staff mwf ine art hist ior chem nave thp tth xne phil nas win econ tnat uie engl 
+37	0.1024	university carolina men state year college north ing work chapel hill school man made students tar class heel time tion 
+38	0.02491	carolina game ball line team yards score virginia yard end left made time field play played half goal good makes 
+39	0.10576	team year coach season sports football basketball players games game play teams years athletic school national college player good athletes 
+40	0.07694	church book books god life christian sunday world christmas history religion religious christ american bible read man poetry baptist story 
+41	0.07754	state vote campaign election party democratic president political north senate republican candidates candidate votes voters bill house democrats elections carolina 
+42	0.05452	career business company job services information computer jobs program carolina companies insurance financial sales management work hanes resume fair bank 
+43	0.06842	shirts franklin suits shop reg group sale phone sport special hill cut chapel wool price cotton coats wear open stock 
+44	0.05546	people unc university students black ing staff student members center community tion writer group it’s women page school day campus 
+45	0.01264	pkg a&p fresh beef soap prices cans ann page food coupon lbs bag limit sliced super-right price effective jar save 
+46	0.10721	university night meeting o'clock hall president club committee memorial graham members student carolina students tonight held today page yesterday program 
+47	0.05334	call sale condition good stereo p.m car price hill chapel excellent wanted radio durham miles service tires system reg sell 
+48	0.03005	call needed work chapel experience hill wanted day hours time care days unc apply today required flexible student part-time information 
+49	0.05474	police reports state chapel hill p.m time arrested university a.m reported car students editor county man officers charged street fire 
+
+[beta: 0.00589] 
+<1000> LL/token: -10.26976
+
+Total time: 1 hours 33 minutes 19 seconds
+mkdir -p /nas/longleaf/home/ryanshaw/scratch/info/50-optimized-topics
+./mallet/bin/mallet train-topics \
+--num-threads 16 \
+--input ocr.sequence \
+--num-topics 50 \
+--optimize-interval 20 --optimize-burn-in 50 \
+--input-state models/50-optimized-topics.gz \
+--no-inference \
+--topic-word-weights-file /nas/longleaf/home/ryanshaw/scratch/info/50-optimized-topics/topic-word-weights.tsv \
+--output-doc-topics /nas/longleaf/home/ryanshaw/scratch/info/50-optimized-topics/doc-topics.tsv \
+--output-topic-docs /nas/longleaf/home/ryanshaw/scratch/info/50-optimized-topics/topic-docs.txt \
+--diagnostics-file /nas/longleaf/home/ryanshaw/scratch/info/50-optimized-topics/diagnostics.xml
+Mallet LDA: 50 topics, 6 topic bits, 111111 topic mask
+Data loaded.
+max tokens: 4705
+total tokens: 122581172
+Initializing from saved state.
+max tokens: 4705
+total tokens: 122581172
+mkdir -p viz/50-optimized-topics
+./venv/bin/python viz.py /nas/longleaf/home/ryanshaw/scratch/info /nas/longleaf/home/ryanshaw/scratch/info/50-optimized-topics > viz/50-optimized-topics/index.html
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+loading document lengths...
+loading vocabulary...
+loading term frequencies...
+loading topic-term distributions...
+loading document-topic distributions...
+topic-term shape: (50, 3791756)
+doc-topic shape: (107632, 50)
+doc lengths shape: (107632,)
+using 16 cores
+measuring topic distance using tsne
+preparing visualization...
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/numpy_pickle.py:103: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/nas/longleaf/home/ryanshaw/pkg/python/3.8.3/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/externals/loky/process_executor.py", line 558, in run
+    self.terminate_broken(bpe)
+  File "/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/externals/loky/process_executor.py", line 736, in terminate_broken
+    self.kill_workers()
+  File "/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/externals/loky/process_executor.py", line 766, in kill_workers
+    recursive_terminate(p)
+  File "/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/externals/loky/backend/utils.py", line 28, in recursive_terminate
+    _recursive_terminate_without_psutil(process)
+  File "/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/externals/loky/backend/utils.py", line 53, in _recursive_terminate_without_psutil
+    _recursive_terminate(process.pid)
+  File "/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/externals/loky/backend/utils.py", line 92, in _recursive_terminate
+    children_pids = subprocess.check_output(
+  File "/nas/longleaf/home/ryanshaw/pkg/python/3.8.3/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/nas/longleaf/home/ryanshaw/pkg/python/3.8.3/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['pgrep', '-P', '36134']' died with <Signals.SIGKILL: 9>.
+Traceback (most recent call last):
+  File "viz.py", line 116, in <module>
+    data = pyLDAvis.prepare(**model)
+  File "/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/pyLDAvis/_prepare.py", line 440, in prepare
+    topic_info = _topic_info(topic_term_dists, topic_proportion,
+  File "/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/pyLDAvis/_prepare.py", line 277, in _topic_info
+    top_terms = pd.concat(Parallel(n_jobs=n_jobs)
+  File "/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/parallel.py", line 1042, in __call__
+    self.retrieve()
+  File "/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/parallel.py", line 921, in retrieve
+    self._output.extend(job.get(timeout=self.timeout))
+  File "/nas/longleaf/home/ryanshaw/dth-topics/venv/lib/python3.8/site-packages/joblib/_parallel_backends.py", line 540, in wrap_future_result
+    return future.result(timeout=timeout)
+  File "/nas/longleaf/home/ryanshaw/pkg/python/3.8.3/lib/python3.8/concurrent/futures/_base.py", line 439, in result
+    return self.__get_result()
+  File "/nas/longleaf/home/ryanshaw/pkg/python/3.8.3/lib/python3.8/concurrent/futures/_base.py", line 388, in __get_result
+    raise self._exception
+joblib.externals.loky.process_executor.TerminatedWorkerError: A worker process managed by the executor was unexpectedly terminated. This could be caused by a segmentation fault while calling the function or by an excessive memory usage causing the Operating System to kill the worker.
+
+The exit codes of the workers are {SIGKILL(-9)}
+slurmstepd: error: *** JOB 63043470 ON gcp130401 CANCELLED AT 2020-06-27T02:15:02 DUE TO TIME LIMIT ***
+slurmstepd: error: Detected 30 oom-kill event(s) in step 63043470.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
