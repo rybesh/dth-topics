@@ -2,9 +2,9 @@
 
 #SBATCH -p general
 #SBATCH -N 1
-#SBATCH --mem 256G
+#SBATCH --mem 150G
 #SBATCH -n 16
-#SBATCH -t 6:00:00
+#SBATCH -t 8:00:00
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=ryanshaw@email.unc.edu
 
@@ -15,7 +15,7 @@ module add apache-ant/1.10.8
 module add go/1.14.4
 
 cd "$HOME/dth-topics" || exit
-MEMORY=256g \
+MEMORY=150g \
 CPUS=16 \
 SCRATCH="$HOME/scratch" \
 make viz/200-optimized-topics/index.html
