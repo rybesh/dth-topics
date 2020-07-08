@@ -131,6 +131,7 @@ $(SCRATCH)/info/%-topics/topic-word-weights.tsv \
 $(SCRATCH)/info/%-topics/doc-topics.tsv \
 | viz/%-topics $(PYTHON)
 	$(PYTHON) viz.py $(SCRATCH)/info $(SCRATCH)/info/$*-topics > $@
+
 # generate diagnostic visualization
 viz/%-topics/diagnostics/data.xml: \
 $(SCRATCH)/info/%-topics/diagnostics.xml
@@ -144,7 +145,7 @@ $(SCRATCH)/info/%-topics/diagnostics.xml
 viz/%-topics/topdocs.html: \
 $(SCRATCH)/info/%-topics/topic-docs.txt \
 | viz/%-topics $(PYTHON)
-	$(PYTHON) topdocs.py $* $(SCRATCH)/info/$*-topics/topic-docs.txt > $@
+	$(PYTHON) topdocs.py $(call n_topics,$*) $(SCRATCH)/info/$*-topics/topic-docs.txt > $@
 
 serve:
 	python3 -m http.server 5555 -d viz --bind 127.0.0.1
