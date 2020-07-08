@@ -109,8 +109,8 @@ models/%-topics.gz ocr.sequence | $(SCRATCH)/info/%-topics
 
 # ...end # $(SCRATCH)/info
 
-$(MS)/info.tar: $(SCRATCH)/info
-	tar -cvf $@ $<
+$(MS)/info.tar:
+	tar -C $(SCRATCH) -cvf $@ info
 
 $(PYTHON):
 	python3 -m venv venv
@@ -152,7 +152,7 @@ serve:
 archive: $(MS)/info.tar
 
 unarchive: $(MS)/info.tar
-	tar -xvf $<
+	tar -C $(SCRATCH) -xvf $<
 
 clean:
 	rm -rf ocr.sequence $(SCRATCH)/info
